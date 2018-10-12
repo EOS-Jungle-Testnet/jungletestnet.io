@@ -13,18 +13,13 @@
 	</a>
 </p>
 
-
-
-
 ## Description 
 EOS Jungle Testnet Community Website [jungletestnet.io](http://jungletestnet.io)
-
-## 
 
 ## Contributing
 
 PRs accepted.
-Please look through our [open issues](https://github.com/eoscostarica/eoscostarica.io/issues) we are all about open source.
+Please look through our [open issues](https://github.com/EOS-Jungle-Testnet/jungletestnet.io/issues) we are all about open source.
 
 Please report bugs big and small by [opening an issue](https://github.com/EOS-Jungle-Testnet/jungletestnet.io/issues).
 
