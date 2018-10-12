@@ -16,6 +16,8 @@
 ## Description 
 EOS Jungle Testnet Community Website [jungletestnet.io](http://jungletestnet.io)
 
+[EOS Jungle Testnet Monitor](http://jungle.cryptolions.io/)
+
 ## Contributing
 
 PRs accepted.
