@@ -1,0 +1,14 @@
+{
+  "name": "jungletestnet.io",
+  "version": "0.1.0",
+  "description": "EOS Jungle Tesnet Website",
+  "main": "",
+  "author": "eoscostarica.io - gaboesquivel.com ",
+  "license": "MIT",
+  "scripts": {
+    "start": "lite-server ."
+  },
+  "dependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
