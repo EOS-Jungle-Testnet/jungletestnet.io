@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Hind:400,300,500);
+
+/******************** TYPOGRAPHY ********************/
+html, body {
+	font-size: 16px;
+}
+
+body {
+    font-family: 'Hind', sans-serif;
+	font-weight: 300;
+	line-height: 25px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Hind', sans-serif;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 1.33;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 300;
+}
+
+h3 {
+	font-size: 22px;
+	font-weight: 400;
+
+}
+
+h4 {
+	font-size: 19px;
+}
+
+h5 {
+	font-size: 18px;
+	line-height: 1.3;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+h4, h5, h6 {
+	font-weight: 500;
+}
+
+@media (min-width: 768px) {
+	h1 {
+		font-size: 60px;
+	}
+
+	h2 {
+		font-size: 50px;
+	}
+}
+
+p {
+	margin-bottom: 20px;
+}
