@@ -505,7 +505,7 @@ button:focus {
   background-size: cover;
 }
 .dark-image-bg {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(/assets/app-home-bg.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(/assets/app-home-bg.jpg);
   background-position: center top;
   background-size: cover;
 }
@@ -1604,8 +1604,9 @@ button:focus {
   color: #fff;
 }
 .home .sub-heading {
-  font-size: 19px;
-  color: rgba(255, 255, 255, 0.95);
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.95);
+    margin-top: 30px;
 }
 .home .list-block li {
   font-size: 18px;
@@ -1692,8 +1693,29 @@ button:focus {
   margin-bottom: 80px;
 } */
 .app-home-3 .logo-home img {
-  width: 265px;
+  width: 500px;
   height: auto;
+}
+@media (max-width: 992px) {
+	.app-home-3 .logo-home img {
+  width: 250px;
+		margin-top: 30%;
+	}
+	.home .sub-heading {
+    font-size: 20px;
+    margin-top: 20px;
+	}
+}
+@media (max-width: 470px) {
+	.home .sub-heading {
+		font-size: 18px;
+	}
+}
+@media (max-width: 320px) {
+	.home .sub-heading {
+		font-size: 14px;
+    margin-top: 22px;
+	}
 }
 .app-home-3 .heading-text {
   margin-bottom: 20px;
@@ -3088,7 +3110,7 @@ button:focus {
 }
 /******************** DOWNLAOD APP 3 ********************/
 .download-app-3.image-bg {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/jungle-subscribe.png) no-repeat center bottom;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/app-home-bg.jpg) no-repeat center bottom;
   background-size: cover;
 }
 /*
