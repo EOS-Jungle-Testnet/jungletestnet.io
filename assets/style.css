@@ -4194,4 +4194,32 @@ button:focus {
   }
 }
 
+
+.dapp-logo{
+  max-width:100%;
+  max-height:100px;
+  margin:0 auto;
+  cursor: pointer;
+}
+.dapp-logo-wrapper{
+  min-height:100px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-bottom:30px
+}
+
+a.svg {
+  position: relative;
+  display: inline-block;
+}
+
+a.svg:after {
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
+}
 /*# sourceMappingURL=style.css.map */
