@@ -25,7 +25,7 @@ Please look through our [open issues](https://github.com/EOS-Jungle-Testnet/jung
 
 Please report bugs big and small by [opening an issue](https://github.com/EOS-Jungle-Testnet/jungletestnet.io/issues).
 
-We use a Kanban-style board with built-in triggers to automatically move issues and pull requests across New Issues, To Do, In Progress and Done columns. That's were we prioritize the work. [Go to Project Board](https://github.com/EOS-Jungle-Testnet/jungletestnet.io/projects/1).
+We use a Kanban-style board with built-in triggers to automatically move issues and pull requests across New Issues, To Do, In Progress and Done columns. That's were we prioritize the work. [Go to Project Board](https://github.com/EOS-Jungle-Testnet/jungletestnet.io/projects/2).
 
 We follow EOS Costa Rica's Open Source Contributing Guidelines. [https://learn.eoscostarica.io/open-source/](https://learn.eoscostarica.io/open-source/)
 
