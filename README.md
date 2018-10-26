@@ -33,7 +33,7 @@ Small note: If editing the Readme, please conform to the [standard-readme](https
 
 ## Weekly Call
 
-Our weekly sync call is every Friday 3pm UTC Costa Rica at [meet.eoscostarica.io](https:/meet.eoscostarica.io).
+Our weekly sync call is every Friday 3pm UTC at [meet.eoscostarica.io](https:/meet.eoscostarica.io).
 
 - Please review our weekly meeting agenda agenda and minutes in the following shared [Google Drive Folder](https://drive.google.com/drive/folders/1AoXnpLLyF84GWfK91xR42kouDnbPL3Dw?usp=sharing)
 
