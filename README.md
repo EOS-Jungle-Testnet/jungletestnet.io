@@ -20,16 +20,11 @@ EOS Jungle Testnet Community Website [jungletestnet.io](http://jungletestnet.io)
 
 ## Contributing
 
-PRs accepted.
-Please look through our [open issues](https://github.com/EOS-Jungle-Testnet/jungletestnet.io/issues) we are all about open source.
+We use a Kanban-style board to prioritize the work. [Go to Project Board](https://github.com/EOS-Jungle-Testnet/jungletestnet.io/projects/4).
+
+Contributing Guidelines. [https://learn.eoscostarica.io/open-source/](https://learn.eoscostarica.io/open-source/).
 
 Please report bugs big and small by [opening an issue](https://github.com/EOS-Jungle-Testnet/jungletestnet.io/issues).
-
-We use a Kanban-style board with built-in triggers to automatically move issues and pull requests across New Issues, To Do, In Progress and Done columns. That's were we prioritize the work. [Go to Project Board](https://github.com/EOS-Jungle-Testnet/jungletestnet.io/projects/4).
-
-We follow EOS Costa Rica's Open Source Contributing Guidelines. [https://learn.eoscostarica.io/open-source/](https://learn.eoscostarica.io/open-source/)
-
-Small note: If editing the Readme, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
 
 ## Weekly Call
 
