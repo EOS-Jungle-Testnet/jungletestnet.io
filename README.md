@@ -42,3 +42,15 @@ Our weekly sync call is every Friday 3pm UTC at [meet.eoscostarica.io](https:/me
 
 MIT © [Jungle Testnet](https://jungletestnet.io)  
 
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars2.githubusercontent.com/u/37701692?v=4" width="100px;"/><br /><sub><b>Bohdan Cryptolions</b></sub>](http://CryptoLions.io)<br />[💻](https://github.com/EOS-Jungle-Testnet/jungletestnet.io/commits?author=ansigroup "Code") [🤔](#ideas-ansigroup "Ideas, Planning, & Feedback") [👀](#review-ansigroup "Reviewed Pull Requests") [📢](#talk-ansigroup "Talks") | [<img src="https://avatars0.githubusercontent.com/u/391270?v=4" width="100px;"/><br /><sub><b>Gabo Esquivel</b></sub>](https://gaboesquivel.com)<br />[🤔](#ideas-gaboesquivel "Ideas, Planning, & Feedback") [📖](https://github.com/EOS-Jungle-Testnet/jungletestnet.io/commits?author=gaboesquivel "Documentation") [💻](https://github.com/EOS-Jungle-Testnet/jungletestnet.io/commits?author=gaboesquivel "Code") [👀](#review-gaboesquivel "Reviewed Pull Requests") | [<img src="https://avatars0.githubusercontent.com/u/5632966?v=4" width="100px;"/><br /><sub><b>Xavier Fernandez</b></sub>](https://github.com/xavier506)<br />[🤔](#ideas-xavier506 "Ideas, Planning, & Feedback") [📖](https://github.com/EOS-Jungle-Testnet/jungletestnet.io/commits?author=xavier506 "Documentation") [💻](https://github.com/EOS-Jungle-Testnet/jungletestnet.io/commits?author=xavier506 "Code") [👀](#review-xavier506 "Reviewed Pull Requests") | [<img src="https://avatars1.githubusercontent.com/u/1179619?v=4" width="100px;"/><br /><sub><b>Jorge Murillo</b></sub>](https://github.com/murillojorge)<br />[🤔](#ideas-murillojorge "Ideas, Planning, & Feedback") [🎨](#design-murillojorge "Design") [👀](#review-murillojorge "Reviewed Pull Requests") | [<img src="https://avatars3.githubusercontent.com/u/11364402?v=4" width="100px;"/><br /><sub><b>Jafar Akhondali</b></sub>](http://diostudio.org)<br />[💻](https://github.com/EOS-Jungle-Testnet/jungletestnet.io/commits?author=JafarAkhondali "Code") | [<img src="https://avatars2.githubusercontent.com/u/8380612?v=4" width="100px;"/><br /><sub><b>Jose Andres Bogantes Ramirez</b></sub>](https://github.com/JoseBoga)<br />[💻](https://github.com/EOS-Jungle-Testnet/jungletestnet.io/commits?author=JoseBoga "Code") |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
