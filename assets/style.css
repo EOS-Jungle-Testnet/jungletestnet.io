@@ -4209,17 +4209,17 @@ button:focus {
   margin-bottom:30px
 }
 
-a.svg {
-  position: relative;
+.maintainers-link {
+  margin: 20px ;
+  overflow: hidden;
   display: inline-block;
 }
 
-a.svg:after {
-  content: ""; 
-  position: absolute; 
-  top: 0; 
-  right: 0; 
-  bottom: 0; 
-  left: 0;
+.maintainers-logo{
+  max-width:100%;
+  max-height:300px;
+  margin:0 auto;
+  cursor: pointer;
 }
+
 /*# sourceMappingURL=style.css.map */
