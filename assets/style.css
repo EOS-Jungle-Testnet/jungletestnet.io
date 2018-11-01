@@ -621,9 +621,9 @@ button:focus {
   margin-bottom: 63px;
 }
 .section-heading .lines {
-  width: 6px;
+  width: 60%;
   position: relative;
-  margin-left: 34px;
+  margin-left: 4px;
   margin-top: 15px;
 }
 .section-heading .lines:before,
