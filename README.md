@@ -22,6 +22,8 @@ EOS Jungle Testnet Community Website [jungletestnet.io](http://jungletestnet.io)
 
 We use a Kanban-style board to prioritize the work. [Go to Project Board](https://github.com/EOS-Jungle-Testnet/jungletestnet.io/projects/4).
 
+The main communication channels are [github issues](https://github.com/EOS-Jungle-Testnet/jungletestnet.io/issues) and the [Jungle's Discord server](https://discord.gg/84REyeN). Feel to join and ask as many questions you may have.
+
 Contributing Guidelines. [https://learn.eoscostarica.io/open-source/](https://learn.eoscostarica.io/open-source/).
 
 Please report bugs big and small by [opening an issue](https://github.com/EOS-Jungle-Testnet/jungletestnet.io/issues).
