@@ -778,7 +778,7 @@ $(document).ready(function () {
     var ownerKey = $('#ownerKey').val();
     var contractsCode = $('#contractsCode').prop('checked');
 
-    if (accountName.length >= 12 && activeKey && ownerKey) {
+    if (accountName.length === 12 && activeKey && ownerKey) {
       var myDBRef = dbRef.push()
       myDBRef.set({
         account: accountName,
