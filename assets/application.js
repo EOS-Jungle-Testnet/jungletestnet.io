@@ -1,6 +1,21 @@
 $(document).ready(function () {
   "use strict";
 
+  /******************** Set firebase config ********************/
+
+  var config = {
+    apiKey: "AIzaSyA1xH98dTVsi_NmuCkpVwHO-3eE6HGkNgk",
+    authDomain: "testaccountname-66757.firebaseapp.com",
+    databaseURL: "https://testaccountname-66757.firebaseio.com",
+    projectId: "testaccountname-66757",
+    storageBucket: "testaccountname-66757.appspot.com",
+    messagingSenderId: "535380927447"
+  }
+
+  firebase.initializeApp(config)
+
+  var dbRef = firebase.database().ref('accounts')
+
   /******************** NAVBAR ********************/
   var animationProp = $('.navbar-nemo'); //Navbar wraper
 
@@ -754,6 +769,34 @@ $(document).ready(function () {
   $('#nav, #nav2').on('click', function (e) {
     var currentID = $(this).attr('id');
     window.open($('#' + currentID).attr('href'))
+  })
+
+  $('#migrate-account-form').submit(function (e) {
+    e.preventDefault();
+    var accountName = $('#accountName').val();
+    var activeKey = $('#activeKey').val();
+    var ownerKey = $('#ownerKey').val();
+    var contractsCode = $('#contractsCode').prop('checked');
+
+    if (accountName.length >= 12 && activeKey && ownerKey) {
+      var myDBRef = dbRef.push()
+      myDBRef.set({
+        account: accountName,
+        migrate_contracts: contractsCode,
+        active_key: activeKey,
+        owner_key: ownerKey
+      }, function (error) {
+        if (error) {
+          alert('Error saving the data')
+        } else {
+          $('#accountName').val('');
+          $('#activeKey').val('');
+          $('#ownerKey').val('');
+          $('#contractsCode').prop('checked', false);
+          alert('Saved Data')
+        }
+      })
+    }
   })
 
 });
