@@ -4237,10 +4237,13 @@ a.svg:after {
 #migrate-checkbox {
   display: flex;
   flex: 1;
-  background-color: #ffffff;
+  text-shadow: 2px 2px 15px #FFFFFF;
   align-items: center;
   justify-content: center;
   height: 40px;
+}
+label#migrate-checkbox-label {
+  color: lightgrey;
 }
 
 #contractsCode {
