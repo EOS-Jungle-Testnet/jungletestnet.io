@@ -891,6 +891,16 @@ button:focus {
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
 }
+.input-group-big-migrate {
+  display: block;
+}
+.input-group-big-migrate .form-control:first-child {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
 .input-group-big .btn {
   min-width: auto;
   padding: 18px 35px;
@@ -4223,3 +4233,19 @@ a.svg:after {
   left: 0;
 }
 /*# sourceMappingURL=style.css.map */
+
+#migrate-checkbox {
+  display: flex;
+  flex: 1;
+  text-shadow: 2px 2px 15px #FFFFFF;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+label#migrate-checkbox-label {
+  color: lightgrey;
+}
+
+#contractsCode {
+  margin-right: 8px;
+}
