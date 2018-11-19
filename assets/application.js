@@ -4,13 +4,13 @@ $(document).ready(function () {
   /******************** Set firebase config ********************/
 
   var config = {
-    apiKey: "",
-    authDomain: "",
-    databaseURL: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: ""
-  }
+    apiKey: "AIzaSyCSpfh5eWsNQjiCdGB7NWMbDMlmhds8pIo",
+    authDomain: "jungletestnet-3fb62.firebaseapp.com",
+    databaseURL: "https://jungletestnet-3fb62.firebaseio.com",
+    projectId: "jungletestnet-3fb62",
+    storageBucket: "jungletestnet-3fb62.appspot.com",
+    messagingSenderId: "259381358166"
+  };
 
   firebase.initializeApp(config)
 
