@@ -6,7 +6,7 @@ $(document).ready(function () {
   var config = {
     apiKey: "AIzaSyCSpfh5eWsNQjiCdGB7NWMbDMlmhds8pIo",
     authDomain: "jungletestnet-3fb62.firebaseapp.com",
-    databaseURL: "https://jungletestnet-3fb62.firebaseio.com",
+    databaseURL: "https://jungletestnet-3fb62.firebaseio.com/",
     projectId: "jungletestnet-3fb62",
     storageBucket: "jungletestnet-3fb62.appspot.com",
     messagingSenderId: "259381358166"
@@ -774,26 +774,23 @@ $(document).ready(function () {
   $('#migrate-account-form').submit(function (e) {
     e.preventDefault();
     var accountName = $('#accountName').val();
-    var activeKey = $('#activeKey').val();
-    var ownerKey = $('#ownerKey').val();
     var contractsCode = $('#contractsCode').prop('checked');
 
-    if (accountName.length === 12 && activeKey && ownerKey) {
+    if (accountName.length === 12) {
       var myDBRef = dbRef.push()
       myDBRef.set({
         account: accountName,
         migrate_contracts: contractsCode,
-        active_key: activeKey,
-        owner_key: ownerKey
       }, function (error) {
         if (error) {
           alert('Error saving the data')
         } else {
           $('#accountName').val('');
-          $('#activeKey').val('');
-          $('#ownerKey').val('');
           $('#contractsCode').prop('checked', false);
-          alert('Saved Data')
+          // alert('Saved Data')
+
+          $('#subscribe_modal_1').modal('show')
+
         }
       })
     }
