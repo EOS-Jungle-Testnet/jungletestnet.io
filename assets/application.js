@@ -776,24 +776,25 @@ $(document).ready(function () {
     var accountName = $('#accountName').val();
     var contractsCode = $('#contractsCode').prop('checked');
 
-    if (accountName.length === 12) {
-      var myDBRef = dbRef.push()
-      myDBRef.set({
-        account: accountName,
-        migrate_contracts: contractsCode,
-      }, function (error) {
-        if (error) {
-          alert('Error saving the data')
-        } else {
-          $('#accountName').val('');
-          $('#contractsCode').prop('checked', false);
-          // alert('Saved Data')
-
-          $('#subscribe_modal_1').modal('show')
-
-        }
-      })
+    if (accountName.length !== 12) { 
+      return alert('The account name must be 12 characters long.')
     }
+    var myDBRef = dbRef.push()
+    myDBRef.set({
+      account: accountName,
+      migrate_contracts: contractsCode,
+    }, function (error) {
+      if (error) {
+        alert('Error saving the data')
+      } else {
+        $('#accountName').val('');
+        $('#contractsCode').prop('checked', false);
+        // alert('Saved Data')
+
+        $('#subscribe_modal_1').modal('show')
+      }
+    })
+    
   })
 
 });
