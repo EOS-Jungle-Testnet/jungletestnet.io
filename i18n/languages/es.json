@@ -1,0 +1,16 @@
+{
+"@metadata": {
+		"authors": [
+			"Alice",
+			"David",
+			"Santhosh"
+		],
+		"last-updated": "2012-09-21",
+		"locale": "es",
+		"message-documentation": "qqq",
+		"AnotherMetadata": "AnotherMedatadataValue"
+	},
+	"sub-heading-1": "El mejor lugar para probar sus EOS DApps",
+	"sub-heading-2": "Cortese los dientes???!",
+	"get-started": "Comience hoy"
+}
