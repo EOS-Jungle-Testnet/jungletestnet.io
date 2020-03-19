@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html dir="ltr">
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173987-69"></script>
@@ -14,7 +14,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 	<!-- TITLE OF SITE -->
-	<title>Jungle Testnet - The best place to test your EOS DApps</title>
+	<title data-i18n="testing"></title>
 
 	<!-- META DATA -->
 	<meta name="description" content="The Jungle Testnet">
@@ -80,18 +80,20 @@
 
      	<div class="collapse navbar-collapse" id="nemo-navigation">
      		<ul class="nav navbar-nav navbar-right">
-     			<li class=""><a href="#what">About</a></li>
-     			<li class=""><a href="#get-started">Get Started</a></li>
-     			<li class=""><a href="#tools">Tools</a></li>
+     			<li><a href="#what">About</a></li>
+     			<li><a href="#get-started">Get Started</a></li>
+     			<li><a href="#tools">Tools</a></li>
      			<!-- <li class=""><a href="https://docs.jungletestnet.io/">FAQ</a></li> -->
-     			<li class=""><a class="external" target="_blank" id="nav" href="https://medium.com/jungletestnet">News</a></li>
-     			<li class=""><a class="external" target="_blank" id="nav2" href="http://monitor.jungletestnet.io">Monitor</a></li>
+     			<li><a class="external" target="_blank" id="nav" href="https://medium.com/jungletestnet">News</a></li>
+					<li><a class="external" target="_blank" id="nav2" href="http://monitor.jungletestnet.io">Monitor</a></li>
+					<li>
+						<select style="border-color: transparent;" class="language span3">
+							<option value="en"><span class="flag-icon flag-icon-fr"> </span> English</option>
+							<option value="es"><span class="flag-icon flag-icon-mx"></span>Spanish</option>
+							<option value="ru"><span class="flag-icon flag-icon-ru"></span>Russian</option>
+						</select>
+					</li>
      		</ul>
-     		<select class="language span3">
-     			<option value="en">English</option>
-     			<option value="es">Spanish</option>
-     			<option value="ru">Russian</option>
-     		</select>
      	</div>
 
      </div>
@@ -110,7 +112,7 @@
      			<img src="./assets/jungle-testnet-logo.svg" alt="">
      		</div>
      		<!-- <h1 class="heading-text">Beautiful and Elegant App Landing Page</h1> -->
-     		<p class="sub-heading mb50" data-i18n="sub-heading-1">The Best Place To Test Your EOS DApps</p>
+     		<p class="sub-heading mb50" data-i18n="sub-heading-1"></p>
      		<p class="sub-heading mb50" data-i18n="sub-heading-2"><i>Cut your teeth in the Jungle!</i></p>
 
      	</div>
@@ -792,20 +794,29 @@
 
      <!--- I18n -->
 
-    <script src="./i18n/src/jquery.i18n.js"></script>
-	<script src="./i18n/src/jquery.i18n.messagestore.js"></script>
-	<script src="./i18n/src/jquery.i18n.fallbacks.js"></script>
-	<script src="./i18n/src/jquery.i18n.parser.js"></script>
-	<script src="./i18n/src/jquery.i18n.emitter.js"></script>
-	<script src="./i18n/src/jquery.i18n.language.js"></script>
+  <script src="./jquery.i18n/jquery.i18n.js"></script>
+	<script src="./jquery.i18n/jquery.i18n.messagestore.js"></script>
+	<script src="./jquery.i18n/jquery.i18n.fallbacks.js"></script>
+	<script src="./jquery.i18n/jquery.i18n.parser.js"></script>
+	<script src="./jquery.i18n/jquery.i18n.emitter.js"></script>
+	<script src="./jquery.i18n/jquery.i18n.language.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
+
+	<!-- (Optional) Latest compiled and minified JavaScript translation files -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/i18n/defaults-*.min.js"></script>
 
      <!--- END I18n -->
-     <script>
-     	/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-     	particlesJS.load('home', 'assets/particles.json', function () {
-     		console.log('callback - particles.js config loaded');
-     	});
-     </script>
+	<script>
+	/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+	particlesJS.load('home', 'assets/particles.json', function () {
+		console.log('callback - particles.js config loaded');
+	});
+	</script>
  </body>
 
  </html>
