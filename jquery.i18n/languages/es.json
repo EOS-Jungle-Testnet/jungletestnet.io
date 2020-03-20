@@ -51,7 +51,8 @@
   "discord-server": "Servidor de Discord",
   "discord-server-description": "El servidor de Discord es una alternativa al principal grupo de Telegram ",
   "testimonials": "Testimonios",
-  "jungle-users-words": "Palabras de usuarios de Jungle",
-  "migration-closed": "Migración terminada",
+  "announcement": "Nuevo Jungle 3.0 Testnet",
+  "announcement-text":"Basado Software EOSIO v2.0.4",
+  "announcement-link":"Jungle 3 - Network Monitor",
   "open-source-site": "Este sitio es código abierto - Encuéntranos en GitHub"
 }
