@@ -32,13 +32,13 @@ Clone and Install npm dependencies
 ```
 git clone https://github.com/EOS-Jungle-Testnet/jungletestnet.io.git
 cd jungletestnet.io
-npm install
+yarn install
 ```
 
 Start local web server
 
 ```
-npm start
+yarn dev
 ```
 
 This command will spin up a [lite-server](https://github.com/johnpapa/lite-server) instance which has [browsersync.io/](http://browsersync.io/).

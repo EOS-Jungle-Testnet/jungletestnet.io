@@ -1,14 +1,8 @@
 {
 	"@metadata": {
-		"authors": [
-			"Alice",
-			"David",
-			"Santhosh"
-		],
-		"last-updated": "2012-09-21",
-		"locale": "en",
-		"message-documentation": "qqq",
-		"AnotherMetadata": "AnotherMedatadataValue"
+		"authors": ["JustinCast"],
+    "last-updated": "2020-03-20",
+    "locale": "en"
 	},
 	"sub-heading-1": "The Best Place To Test Your EOS DApps",
 	"sub-heading-2": "Cut your teeth in the Jungle!",
