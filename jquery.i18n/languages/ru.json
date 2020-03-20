@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+    "authors": ["Alice", "David", "Santhosh"],
+    "last-updated": "2012-09-21",
+    "locale": "es",
+    "message-documentation": "qqq",
+    "AnotherMetadata": "AnotherMedatadataValue"
+  },
+  "sub-heading-1": "RUSIAN GOES HERE",
+  "sub-heading-2": "RUSIAN GOES HERE",
+  "get-started": "RUSIAN GOES HERE"
+}
