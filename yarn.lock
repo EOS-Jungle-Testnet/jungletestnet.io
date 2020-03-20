@@ -1144,7 +1144,7 @@ limiter@^1.0.5:
   resolved "https://registry.yarnpkg.com/limiter/-/limiter-1.1.4.tgz#87c9c3972d389fdb0ba67a45aadbc5d2f8413bc1"
   integrity sha512-XCpr5bElgDI65vVgstP8TWjv6/QKWm9GU5UG0Pr5sLQ3QLo8NVKsioe+Jed5/3vFOe3IQuqE7DKwTvKQkjTHvg==
 
-lite-server@^2.4.0:
+lite-server@^2.5.3:
   version "2.5.3"
   resolved "https://registry.yarnpkg.com/lite-server/-/lite-server-2.5.3.tgz#7aae701678819ccf051ef7c6f467813c90c70592"
   integrity sha512-D+CfLgGn/WVlGKKrZaGnBDIpXqm5lFXLt2tw0aCQNxMIbXD7VlYiud2bxe3oQDAIwfVPEBHIF6RdZVml2cBcLA==

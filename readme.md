@@ -18,6 +18,32 @@ EOS Jungle Testnet Community Website [jungletestnet.io](http://jungletestnet.io)
 
 [EOS Jungle Testnet Monitor](http://jungle.cryptolions.io/)
 
+## Usage
+
+This is currently rently a static HTML site, we are looking into implementing static site generators in order to implement templating.
+
+### Node.js Static Server
+
+Install node.js v8 ( carbon ) on your machine.   
+We recommend using [nvm](https://github.com/creationix/nvm) and [avn](https://github.com/wbyoung/avn) to [manage multiple versions of nodejs on your computer](https://gaboesquivel.com/blog/2015/automatic-node.js-version-switching/).
+
+Clone and Install npm dependencies
+
+```
+git clone https://github.com/EOS-Jungle-Testnet/jungletestnet.io.git
+cd jungletestnet.io
+yarn install
+```
+
+Start local web server
+
+```
+yarn dev
+```
+
+This command will spin up a [lite-server](https://github.com/johnpapa/lite-server) instance which has [browsersync.io/](http://browsersync.io/).
+
+
 ## Contributing
 
 We use a Kanban-style board to prioritize the work. [Go to Project Board](https://github.com/EOS-Jungle-Testnet/jungletestnet.io/projects/4).

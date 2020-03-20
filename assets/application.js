@@ -1,20 +1,29 @@
 $(document).ready(function () {
-  "use strict";
+  "use strict"; 
+/******************** NAVBAR ********************/
+  var i18n = $.i18n({
+    locale: 'en'
+  });
 
-  /******************** Set firebase config ********************/
+  // i18n configuration
+  var language = 'en';
+  var path = '../jquery.i18n/languages/' + language + '.json';
+  i18n.load( path , language ).done(() => $("html").i18n());
+  
+  $( ".language" ).change(function() {
+    language = $('.language option:selected').val();
+    i18n.locale = language;
+    path = `../jquery.i18n/languages/${language}.json`;
+    console.log(language);
+    i18n.load(path, language).done(() => 
+      $("html").i18n()
+    );
+  });
 
-  var config = {
-    apiKey: "AIzaSyCSpfh5eWsNQjiCdGB7NWMbDMlmhds8pIo",
-    authDomain: "jungletestnet-3fb62.firebaseapp.com",
-    databaseURL: "https://jungletestnet-3fb62.firebaseio.com/",
-    projectId: "jungletestnet-3fb62",
-    storageBucket: "jungletestnet-3fb62.appspot.com",
-    messagingSenderId: "259381358166"
-  };
+  // Enable debug
+  $.i18n.debug = true;
 
-  firebase.initializeApp(config)
 
-  var dbRef = firebase.database().ref('accounts')
 
   /******************** NAVBAR ********************/
   var animationProp = $('.navbar-nemo'); //Navbar wraper

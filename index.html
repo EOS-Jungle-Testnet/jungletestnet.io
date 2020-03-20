@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173987-69"></script>
 	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-	  gtag('config', 'UA-173987-69');
+		gtag('config', 'UA-173987-69');
 	</script>
+
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 	<!-- TITLE OF SITE -->
-	<title>Jungle Testnet - The best place to test your EOS DApps</title>
+	<title data-i18n="title"></title>
 
 	<!-- META DATA -->
 	<meta name="description" content="The Jungle Testnet">
@@ -59,135 +60,138 @@
 <body class="body-container">
 	<!-- =========================
      NAVBAR 
-============================== -->
-	<div class="navbar navbar-nemo navbar-fixed-top appear-onscroll">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nemo-navigation"
-				 aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar icon-bar-top"></span>
-					<span class="icon-bar icon-bar-middle"></span>
-					<span class="icon-bar icon-bar-bottom"></span>
-				</button>
+     ============================== -->
+     <div class="navbar navbar-nemo navbar-fixed-top appear-onscroll">
+     	<div class="container">
+     		<div class="navbar-header">
+     			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nemo-navigation"
+     			aria-expanded="false">
+     			<span class="sr-only">Toggle navigation</span>
+     			<span class="icon-bar icon-bar-top"></span>
+     			<span class="icon-bar icon-bar-middle"></span>
+     			<span class="icon-bar icon-bar-bottom"></span>
+     		</button>
 
-				<!-- YOUR LOGO -->
-				<a class="navbar-brand" href="/">
-					<img src="./assets/jungle-testnet-logo.png" alt="Jungle Testnet">
-				</a>
-			</div>
+     		<!-- YOUR LOGO -->
+     		<a class="navbar-brand" href="/">
+     			<img src="./assets/jungle-testnet-logo.png" alt="Jungle Testnet">
+     		</a>
+     	</div>
 
-			<div class="collapse navbar-collapse" id="nemo-navigation">
-				<ul class="nav navbar-nav navbar-right">
-					<li class=""><a href="#what">About</a></li>
-					<li class=""><a href="#get-started">Get Started</a></li>
-					<li class=""><a href="#tools">Tools</a></li>
-					<!-- <li class=""><a href="https://docs.jungletestnet.io/">FAQ</a></li> -->
-					<li class=""><a class="external" target="_blank" id="nav" href="https://medium.com/jungletestnet">News</a></li>
-					<li class=""><a class="external" target="_blank" id="nav2" href="http://monitor.jungletestnet.io">Monitor</a></li>
-				</ul>
-			</div>
+     	<div class="collapse navbar-collapse" id="nemo-navigation">
+     		<ul class="nav navbar-nav navbar-right">
+     			<li><a href="#what" data-i18n="about-info"></a></li>
+     			<li><a href="#get-started" data-i18n="get-started"></a></li>
+     			<li><a href="#tools" data-i18n="tools"></a></li>
+     			<!-- <li class=""><a href="https://docs.jungletestnet.io/">FAQ</a></li> -->
+     			<li><a class="external" target="_blank" id="nav" href="https://medium.com/jungletestnet" data-i18n="news"></a></li>
+					<li><a class="external" target="_blank" id="nav2" href="http://monitor.jungletestnet.io" data-i18n="monitor"></a></li>
+					<li style="margin-left: 35px;">
+						<select style="border-color: transparent;" class="language span3">
+							<option value="en">English</option>
+							<option value="es">Español</option>
+							<option value="ru">Russian</option>
+						</select>
+					</li>
+     		</ul>
+     	</div>
 
-		</div>
-	</div>
+     </div>
+ </div>
 
 
 
 	<!-- =========================
      APP HOME
-============================== -->
-	<div style="clear:both"></div>
-	<section class="home app-home-3 dark-image-bg gradient-overlay text-center" id="home">
+     ============================== -->
+     <div style="clear:both"></div>
+     <section class="home app-home-3 dark-image-bg gradient-overlay text-center" id="home">
 
-		<div class="home-inner-wrapper">
-			<div class="logo-home">
-				<img src="./assets/jungle-testnet-logo.svg" alt="">
-			</div>
-			<!-- <h1 class="heading-text">Beautiful and Elegant App Landing Page</h1> -->
-			<p class="sub-heading mb50">The Best Place To Test Your EOS DApps</p>
-			<p class="sub-heading mb50"><i>Cut your teeth in the Jungle!</i></p>
+     	<div class="home-inner-wrapper">
+     		<div class="logo-home">
+     			<img src="./assets/jungle-testnet-logo.svg" alt="">
+     		</div>
+				 <!-- <h1 class="heading-text">Beautiful and Elegant App Landing Page</h1> -->
+				 <div class="container text-center">
+					 <p class="sub-heading mb50" data-i18n="sub-heading-2"></p>
+					 <p class="sub-heading mb50" data-i18n="sub-heading-1"></p>
+				 </div>
 
-		</div>
+     	</div>
 
-	</section>
+     </section>
 
 	<!-- =========================
      THE WHAT
-============================== -->
-	<div class="features small-features white-bg" id="what">
-		<div class="container">
-			<div class="row">
+     ============================== -->
+     <div class="features small-features white-bg" id="what">
+     	<div class="container">
+     		<div class="row">
 
-				<div class="col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 mb50">
-					<div class="media">
-						<div class="media-left">
+     			<div class="col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 mb50">
+     				<div class="media">
+     					<div class="media-left">
 
-							<i class="icon svg-basic-sheet-pencil icon-md">
-								<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-								 width="32" height="32" viewBox="0 0 32 32">
-									<path d="M21.5 7.313l-6.313-6.313h-15.188v30h21.5zM15.5 2.688l4.313 4.313h-4.313zM1 30v-28h13.5v6h6v22zM32 0h-5v27.125l2.5 5 2.5-5zM31 1v4h-3v-4zM29.5 29.875l-1.5-3v-20.875h3v20.875zM4 6h6v1h-6zM4 11h13.5v1h-13.5zM4 15h13.5v1h-13.5zM4 19h13.5v1h-13.5zM4 23h13.5v1h-13.5z"></path>
-								</svg> </i>
+     						<i class="icon svg-basic-sheet-pencil icon-md">
+     							<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     							width="32" height="32" viewBox="0 0 32 32">
+     							<path d="M21.5 7.313l-6.313-6.313h-15.188v30h21.5zM15.5 2.688l4.313 4.313h-4.313zM1 30v-28h13.5v6h6v22zM32 0h-5v27.125l2.5 5 2.5-5zM31 1v4h-3v-4zM29.5 29.875l-1.5-3v-20.875h3v20.875zM4 6h6v1h-6zM4 11h13.5v1h-13.5zM4 15h13.5v1h-13.5zM4 19h13.5v1h-13.5zM4 23h13.5v1h-13.5z"></path>
+     						</svg> </i>
 
-						</div>
-						<div class="media-body">
+     					</div>
+     					<div class="media-body">
 
-							<h3 class="title-text">Learn from Zero</h3>
-							<p>The Jungle is a great place to learn about blockchain. Checkout the Learn section to get started building on
-								EOS today.</p>
+     						<h3 class="title-text" data-i18n="novice"></h3>
+     						<p data-i18n="novice-intro"></p>
+     					</div>
+     				</div>
+     			</div>
 
-						</div>
-					</div>
-				</div>
+     			<div class="col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 mb50">
+     				<div class="media">
+     					<div class="media-left">
 
-				<div class="col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 mb50">
-					<div class="media">
-						<div class="media-left">
+     						<i class="icon svg-basic-mixer2 icon-md">
+     							<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     							width="32" height="32" viewBox="0 0 32 32">
+     							<path d="M6.5 3.063v-3.063h-1v3.063c-1.688 0.25-3 1.688-3 3.438s1.313 3.188 3 3.438v22.063h1v-22.063c1.688-0.25 3-1.688 3-3.438s-1.313-3.188-3-3.438zM6 9c-1.375 0-2.5-1.125-2.5-2.5s1.125-2.5 2.5-2.5c1.375 0 2.5 1.125 2.5 2.5s-1.125 2.5-2.5 2.5zM26.5 22.063v-22.063h-1v22.063c-1.688 0.25-3 1.688-3 3.438s1.313 3.188 3 3.438v3.063h1v-3.063c1.688-0.25 3-1.688 3-3.438s-1.313-3.188-3-3.438zM26 28c-1.375 0-2.5-1.125-2.5-2.5s1.125-2.5 2.5-2.5c1.375 0 2.5 1.125 2.5 2.5s-1.125 2.5-2.5 2.5zM16.5 12.563v-12.563h-1v12.563c-1.688 0.25-3 1.688-3 3.438s1.313 3.188 3 3.438v12.563h1v-12.563c1.688-0.25 3-1.688 3-3.438s-1.313-3.188-3-3.438zM16 18.5c-1.375 0-2.5-1.125-2.5-2.5s1.125-2.5 2.5-2.5c1.375 0 2.5 1.125 2.5 2.5s-1.125 2.5-2.5 2.5z"></path>
+     						</svg> </i>
 
-							<i class="icon svg-basic-mixer2 icon-md">
-								<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-								 width="32" height="32" viewBox="0 0 32 32">
-									<path d="M6.5 3.063v-3.063h-1v3.063c-1.688 0.25-3 1.688-3 3.438s1.313 3.188 3 3.438v22.063h1v-22.063c1.688-0.25 3-1.688 3-3.438s-1.313-3.188-3-3.438zM6 9c-1.375 0-2.5-1.125-2.5-2.5s1.125-2.5 2.5-2.5c1.375 0 2.5 1.125 2.5 2.5s-1.125 2.5-2.5 2.5zM26.5 22.063v-22.063h-1v22.063c-1.688 0.25-3 1.688-3 3.438s1.313 3.188 3 3.438v3.063h1v-3.063c1.688-0.25 3-1.688 3-3.438s-1.313-3.188-3-3.438zM26 28c-1.375 0-2.5-1.125-2.5-2.5s1.125-2.5 2.5-2.5c1.375 0 2.5 1.125 2.5 2.5s-1.125 2.5-2.5 2.5zM16.5 12.563v-12.563h-1v12.563c-1.688 0.25-3 1.688-3 3.438s1.313 3.188 3 3.438v12.563h1v-12.563c1.688-0.25 3-1.688 3-3.438s-1.313-3.188-3-3.438zM16 18.5c-1.375 0-2.5-1.125-2.5-2.5s1.125-2.5 2.5-2.5c1.375 0 2.5 1.125 2.5 2.5s-1.125 2.5-2.5 2.5z"></path>
-								</svg> </i>
+     					</div>
+     					<div class="media-body">
 
-						</div>
-						<div class="media-body">
+     						<h3 class="title-text" data-i18n="test-dapps"></h3>
+     						<p data-i18n="test-dapps-intro"></p>
 
-							<h3 class="title-text">Test your DApps</h3>
-							<p>The Jungle TestNet provides testing environment for your EOS based applications so you can focus on the
-								features.</p>
+     					</div>
+     				</div>
+     			</div>
 
-						</div>
-					</div>
-				</div>
+     			<div class="col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 mb50">
+     				<div class="media">
+     					<div class="media-left">
 
-				<div class="col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 mb50">
-					<div class="media">
-						<div class="media-left">
+     						<i class="icon svg-basic-gear icon-md">
+     							<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     							width="32" height="32" viewBox="0 0 32 32">
+     							<path d="M26.563 10.125l3.125-3.125-4.688-4.688-3.125 3.125-2.375-0.813v-4.625h-7v4.625l-2.375 0.813-3.125-3.125-4.688 4.688 3.125 3.125-0.813 2.375h-4.625v7h4.625l0.813 2.375-3.125 3.125 4.688 4.688 3.125-3.125 2.375 0.813v4.625h7v-4.625l2.375-0.813 3.125 3.125 4.688-4.688-3.125-3.125 0.813-2.375h4.625v-7h-4.625zM31 18.5h-4.375l-1.188 3.625 2.875 2.875-3.313 3.313-2.875-2.875-3.625 1.188v4.375h-5v-4.375l-3.625-1.188-2.875 2.875-3.313-3.313 2.875-2.875-1.188-3.625h-4.375v-5h4.375l1.188-3.625-2.875-2.875 3.313-3.313 2.875 2.875 3.625-1.188v-4.375h5v4.375l3.625 1.188 2.875-2.875 3.313 3.313-2.875 2.875 1.188 3.625h4.375zM16 12.5c-1.938 0-3.5 1.563-3.5 3.5s1.563 3.5 3.5 3.5c1.938 0 3.5-1.563 3.5-3.5s-1.563-3.5-3.5-3.5zM16 18.5c-1.375 0-2.5-1.125-2.5-2.5s1.125-2.5 2.5-2.5c1.375 0 2.5 1.125 2.5 2.5s-1.125 2.5-2.5 2.5z"></path>
+     						</svg> </i>
 
-							<i class="icon svg-basic-gear icon-md">
-								<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-								 width="32" height="32" viewBox="0 0 32 32">
-									<path d="M26.563 10.125l3.125-3.125-4.688-4.688-3.125 3.125-2.375-0.813v-4.625h-7v4.625l-2.375 0.813-3.125-3.125-4.688 4.688 3.125 3.125-0.813 2.375h-4.625v7h4.625l0.813 2.375-3.125 3.125 4.688 4.688 3.125-3.125 2.375 0.813v4.625h7v-4.625l2.375-0.813 3.125 3.125 4.688-4.688-3.125-3.125 0.813-2.375h4.625v-7h-4.625zM31 18.5h-4.375l-1.188 3.625 2.875 2.875-3.313 3.313-2.875-2.875-3.625 1.188v4.375h-5v-4.375l-3.625-1.188-2.875 2.875-3.313-3.313 2.875-2.875-1.188-3.625h-4.375v-5h4.375l1.188-3.625-2.875-2.875 3.313-3.313 2.875 2.875 3.625-1.188v-4.375h5v4.375l3.625 1.188 2.875-2.875 3.313 3.313-2.875 2.875 1.188 3.625h4.375zM16 12.5c-1.938 0-3.5 1.563-3.5 3.5s1.563 3.5 3.5 3.5c1.938 0 3.5-1.563 3.5-3.5s-1.563-3.5-3.5-3.5zM16 18.5c-1.375 0-2.5-1.125-2.5-2.5s1.125-2.5 2.5-2.5c1.375 0 2.5 1.125 2.5 2.5s-1.125 2.5-2.5 2.5z"></path>
-								</svg> </i>
+     					</div>
+     					<div class="media-body">
 
-						</div>
-						<div class="media-body">
+     						<h3 class="title-text" data-i18n="test-infra"></h3>
+     						<p data-i18n="test-infra-intro"></p>
 
-							<h3 class="title-text">Test your Infrastructure</h3>
-							<p>The Jungle allows EOS Block Producers to test their infrastructure and EOSIO updates before deploying to EOS
-								MainNet.</p>
+     					</div>
+     				</div>
+     			</div>
 
-						</div>
-					</div>
-				</div>
+     		</div> <!-- /.row -->
+     	</div>
+     </div>
 
-			</div> <!-- /.row -->
-		</div>
-	</div>
-
-
-
-	<!-- =========================
+<!-- =========================
      DESCRIPTION  
 ============================== -->
 	<section class="descriptions book-description padding-120-75 white-bg" id="about">
@@ -201,24 +205,22 @@
 
 					</div> <!-- /.section-heading -->
 
-					<p>The Jungle TestNet was initiated by <a href="https://cryptolions.io">Crypto Lions</a> and has served as sandbox
-						for many development teams and EOS Block Producers since the birth of EOSIO.
+					<p data-i18n="testnet-origin-first-paragraph"><a href="https://cryptolions.io">Crypto Lions</a>
 					</p>
-					<p>It played a cornerstone role in the EOS launch and now as the network matures and grows it provides a reliable
-						test environment for EOSIO based applications.</p>
-					<p>Your dApp's success is our number one priority.</p>
+					<p data-i18n="testnet-origin-second-paragraph"></p>
+					<p data-i18n="testnet-origin-third-paragraph"></p>
 
 					<ul class="text-strong">
-						<li><span class="text-color">#1</span> EOS Testnet</li>
+						<li><span class="text-color">#1</span> EOS TestNet</li>
 						<li><span class="text-color">20+</span> EOS DApps</li>
-						<li><span class="text-color">50+</span> Block Producers</li>
+						<li><span class="text-color">50+</span> <span data-i18n="block-producers"></span></li>
 					</ul>
 				</div>
 
 				<div class="col-md-6 mb50">
 					<div class="video-container videoWrapper">
 						<!-- fit vid -->
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/o1tj2zJ2Wvg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+						<iframe style="border-radius: 5px;" class="shadow-sm" width="560" height="315" src="https://www.youtube.com/embed/o1tj2zJ2Wvg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 						 allowfullscreen></iframe>
 					</div>
 				</div>
@@ -227,254 +229,226 @@
 		</div>
 	</section>
 
-
-
 	<!-- =========================
      GET STARTED
-============================== -->
-	<section class="features app-features-5 padding-120-75 white-bg" style="background:#f7f7f7" id="get-started">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-8 col-sm-10 col-lg-offset-3 col-md-offset-2 col-sm-offset-1">
-					<div class="section-heading text-center">
+     ============================== -->
+     <section class="features app-features-5 padding-120-75 white-bg" style="background:#f7f7f7" id="get-started">
+     	<div class="container">
+     		<div class="row">
+     			<div class="col-lg-6 col-md-8 col-sm-10 col-lg-offset-3 col-md-offset-2 col-sm-offset-1">
+     				<div class="section-heading text-center">
 
-						<h2 class="heading-text">Get Started</h2>
-						<hr class="lines">
-						<p class="sub-heading">Follow these steps to join us in the Jungle.</p>
+     					<h2 class="heading-text" data-i18n="get-started"></h2>
+     					<hr class="lines">
+     					<p class="get-started-sub-heading"></p>
 
-					</div> <!-- /.section-heading -->
-				</div>
-			</div> <!-- /.row -->
+     				</div> <!-- /.section-heading -->
+     			</div>
+     		</div> <!-- /.row -->
 
-			<div class="row">
-				<div class="col-md-6 col-sm-8 col-md-offset-0 col-sm-offset-2 mb50">
+     		<div class="row">
+     			<div class="col-md-6 col-sm-8 col-md-offset-0 col-sm-offset-2 mb50">
 
-					<div class="media media-chained">
-						<div class="media-left">
+     				<div class="media media-chained">
+     					<div class="media-left">
 
-							<i class="icon svg-lightning-regular icon-shape width-75 radius-30 icon-border-1">
-								<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-								 width="32" height="32" viewBox="0 0 32 32">
-									<path d="M32 0l-27.063 11.063 8 8-12.938 12.938 27.063-11.063-8-8zM24.875 20.438l-19.688 8 8.625-8.625 0.813-0.875-0.813-0.875-6.688-6.625 19.688-8-9.438 9.5 0.813 0.875z"></path>
-								</svg> </i>
+     						<i class="icon svg-lightning-regular icon-shape width-75 radius-30 icon-border-1">
+     							<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     							width="32" height="32" viewBox="0 0 32 32">
+     							<path d="M32 0l-27.063 11.063 8 8-12.938 12.938 27.063-11.063-8-8zM24.875 20.438l-19.688 8 8.625-8.625 0.813-0.875-0.813-0.875-6.688-6.625 19.688-8-9.438 9.5 0.813 0.875z"></path>
+     						</svg> </i>
 
-						</div>
-						<div class="media-body">
+     					</div>
+     					<div class="media-body">
+     						<h3 class="title-text" data-i18n="create-account"></h3>
+								 <p><span data-i18n="create-account-description"></span><a target="_blank" href="https://monitor.jungletestnet.io/#account">monitor.jungletestnet.io/#account</a>
+									<span data-i18n="create-account-description-2"></span>
+     							<a href="https://nadejde.github.io/eos-token-sale/" data-i18n="here"></a></p>
+     						</div>
+     					</div>
 
-							<h3 class="title-text">1. Create an Account</h3>
-							<p>To create an EOS account on the Jungle TestNet visit <a target="_blank" href="https://monitor.jungletestnet.io/#account">monitor.jungletestnet.io/#account</a>
-								and choose a 12 character username. You can generate the EOS key pairs <a href="https://nadejde.github.io/eos-token-sale/">here</a>.</p>
+     					<div class="media media-chained">
+     						<div class="media-left">
+     							<i class="icon svg-gift-regular icon-shape width-75 radius-30 icon-border-1">
+     								<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     								width="32" height="32" viewBox="0 0 32 32">
+     								<path d="M32 8h-10.188c0.563-0.625 0.938-1.5 0.938-2.438 0-2.125-1.563-3.688-3.688-3.688-1.188 0-2.438 0.563-3.063 1.563-0.625-1-1.813-1.563-3.063-1.563-2.125 0-3.688 1.563-3.688 3.688 0 0.938 0.375 1.813 0.938 2.438h-10.188v4.938h1.25v17.188h29.5v-17.188h1.25zM19.063 3.063c1.375 0 2.5 1.125 2.5 2.5 0 1.313-1.125 2.438-2.5 2.438h-2.438v-2.438c0-1.375 1.125-2.5 2.438-2.5zM10.438 5.563c0-1.375 1.125-2.5 2.5-2.5 1.313 0 2.438 1.125 2.438 2.5v2.438h-2.438c-1.375 0-2.5-1.125-2.5-2.438zM1.25 9.25h14.125v2.438h-14.125zM2.438 12.938h12.938v16h-12.938zM29.563 28.938h-12.938v-16h12.938zM30.75 11.688h-14.125v-2.438h14.125z"></path>
+     							</svg> </i>
 
-						</div>
-					</div>
+     						</div>
+     						<div class="media-body">
+     							<h3 class="title-text" data-i18n="free-tokens"></h3>
+     							<p><span data-i18n="free-tokens-description"></span><a target="_blank" href="http://monitor.jungletestnet.io/#faucet">faucet
+     							service</a><span data-i18n="free-tokens-description-2"></span></p>
+     						</div>
+     					</div>
 
-					<div class="media media-chained">
-						<div class="media-left">
+     					<div class="media media-chained">
+     						<div class="media-left">
 
-							<i class="icon svg-gift-regular icon-shape width-75 radius-30 icon-border-1">
-								<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-								 width="32" height="32" viewBox="0 0 32 32">
-									<path d="M32 8h-10.188c0.563-0.625 0.938-1.5 0.938-2.438 0-2.125-1.563-3.688-3.688-3.688-1.188 0-2.438 0.563-3.063 1.563-0.625-1-1.813-1.563-3.063-1.563-2.125 0-3.688 1.563-3.688 3.688 0 0.938 0.375 1.813 0.938 2.438h-10.188v4.938h1.25v17.188h29.5v-17.188h1.25zM19.063 3.063c1.375 0 2.5 1.125 2.5 2.5 0 1.313-1.125 2.438-2.5 2.438h-2.438v-2.438c0-1.375 1.125-2.5 2.438-2.5zM10.438 5.563c0-1.375 1.125-2.5 2.5-2.5 1.313 0 2.438 1.125 2.438 2.5v2.438h-2.438c-1.375 0-2.5-1.125-2.5-2.438zM1.25 9.25h14.125v2.438h-14.125zM2.438 12.938h12.938v16h-12.938zM29.563 28.938h-12.938v-16h12.938zM30.75 11.688h-14.125v-2.438h14.125z"></path>
-								</svg> </i>
+     							<i class="icon svg-rocket icon-shape width-75 radius-30 icon-border-1">
+     								<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     								width="32" height="32" viewBox="0 0 32 32">
+     								<path d="M18.5 9.5c0-1.375-1.125-2.5-2.5-2.5s-2.5 1.125-2.5 2.5c0 1.375 1.125 2.5 2.5 2.5s2.5-1.125 2.5-2.5zM14.5 9.5c0-0.813 0.688-1.5 1.5-1.5s1.5 0.688 1.5 1.5c0 0.813-0.688 1.5-1.5 1.5s-1.5-0.688-1.5-1.5zM16 24.313l0.375-0.5c0.25-0.313 6.625-8.188 6.625-13.313 0-4.125-3.188-7.5-7-7.5-3.875 0-7 3.375-7 7.5 0 5.125 6.313 13 6.625 13.313zM16 4c3.313 0 6 2.938 6 6.5 0 4.063-4.625 10.375-6 12.188-1.375-1.813-6-8.125-6-12.188 0-3.563 2.688-6.5 6-6.5zM21.5 18v1h4.188l4.938 9h-29.25l4.938-9h4.188v-1h-4.813l-6.063 11h32.75l-6.063-11z"></path>
+     							</svg> </i>
 
-						</div>
-						<div class="media-body">
+     						</div>
+     						<div class="media-body">
 
-							<h3 class="title-text">2. Get Free Tokens</h3>
-							<p>EOS Tokens entitle you to use network resources: RAM, CPU and Bandwidth. Through the <a target="_blank" href="http://monitor.jungletestnet.io/#faucet">faucet
-									service</a> you can get free tokens on the Jungle Testnet for any account.</p>
+							<h3 class="title-text" data-i18n="deploy-test"></h3>
+							<p data-i18n="deploy-test-description"></p>
 
-						</div>
-					</div>
+     						</div>
+     					</div>
 
-					<div class="media media-chained">
-						<div class="media-left">
+     				</div>
+     				<div class="col-md-6 col-sm-8 col-md-offset-0 col-sm-offset-2 mb50">
 
-							<i class="icon svg-rocket icon-shape width-75 radius-30 icon-border-1">
-								<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-								 width="32" height="32" viewBox="0 0 32 32">
-									<path d="M18.5 9.5c0-1.375-1.125-2.5-2.5-2.5s-2.5 1.125-2.5 2.5c0 1.375 1.125 2.5 2.5 2.5s2.5-1.125 2.5-2.5zM14.5 9.5c0-0.813 0.688-1.5 1.5-1.5s1.5 0.688 1.5 1.5c0 0.813-0.688 1.5-1.5 1.5s-1.5-0.688-1.5-1.5zM16 24.313l0.375-0.5c0.25-0.313 6.625-8.188 6.625-13.313 0-4.125-3.188-7.5-7-7.5-3.875 0-7 3.375-7 7.5 0 5.125 6.313 13 6.625 13.313zM16 4c3.313 0 6 2.938 6 6.5 0 4.063-4.625 10.375-6 12.188-1.375-1.813-6-8.125-6-12.188 0-3.563 2.688-6.5 6-6.5zM21.5 18v1h4.188l4.938 9h-29.25l4.938-9h4.188v-1h-4.813l-6.063 11h32.75l-6.063-11z"></path>
-								</svg> </i>
+     					<img src="./assets/app-desc-3.png" alt="" class="img-responsive img-right">
 
-						</div>
-						<div class="media-body">
-
-							<h3 class="title-text">3. Deploy and Test</h3>
-							<p>Deploy and Test your contracts in the "wild" before going live.
-							</p>
-
-						</div>
-					</div>
-
-				</div>
-				<div class="col-md-6 col-sm-8 col-md-offset-0 col-sm-offset-2 mb50">
-
-					<img src="./assets/app-desc-3.png" alt="" class="img-responsive img-right">
-
-				</div>
-			</div> <!-- /.row -->
-		</div>
-	</section>
+     				</div>
+     			</div> <!-- /.row -->
+     		</div>
+     	</section>
 
 	<!-- =========================
      TOOLS 
-============================== -->
-	<section class="features app-features-1 text-center white-bg padding-120-125" id="tools">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-8 col-sm-10 col-lg-offset-3 col-md-offset-2 col-sm-offset-1">
-					<div class="section-heading">
+     ============================== -->
+     <section class="features app-features-1 text-center white-bg padding-120-125" id="tools">
+     	<div class="container">
+     		<div class="row">
+     			<div class="col-lg-6 col-md-8 col-sm-10 col-lg-offset-3 col-md-offset-2 col-sm-offset-1">
+     				<div class="section-heading">
 
-						<h2 class="heading-text">TOOLS</h2>
-						<hr class="lines">
-						<p class="sub-heading">These are tools that will help you survive in the Jungle.</p>
+     					<h2 class="heading-text" data-i18n="tools"></h2>
+     					<hr class="lines">
+     					<p class="sub-heading" data-i18n="tools-description"></p>
+     				</div> <!-- /.section-heading -->
+     			</div>
+     		</div> <!-- /.row -->
 
-					</div> <!-- /.section-heading -->
-				</div>
-			</div> <!-- /.row -->
+     		<!-- GRID BORDERED ITEMS -->
+     		<div class="row grid-border">
+     			<div class="col-md-4 col-sm-6 item" data-sr="enter top move 100px over 0.8s">
 
-			<!-- GRID BORDERED ITEMS -->
-			<div class="row grid-border">
-				<div class="col-md-4 col-sm-6 item" data-sr="enter top move 100px over 0.8s">
+     				<div class="feature-item">
+     					<i class="icon icon-lg svg-monitor">
+     						<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     						width="32" height="32" viewBox="0 0 32 32">
+     						<path d="M27 7.5h-27v21h27zM26 8.5v17.438l-6.438-5.563-4.938 3-7.125-8.125-6.5 6.563v-13.313zM1 27.5v-4.313l6.5-6.438 6.875 7.875 5.063-3 6.563 5.625v0.25zM4.5 7h1v-2.5h25.5v19h-3.5v1h4.5v-21h-27.5zM20 17.5c1.625 0 3-1.375 3-3s-1.375-3-3-3c-1.625 0-3 1.375-3 3s1.375 3 3 3zM20 12.5c1.125 0 2 0.875 2 2s-0.875 2-2 2c-1.125 0-2-0.875-2-2s0.875-2 2-2z"></path>
+     					</svg> </i>
+     					<h3 class="title-text" data-i18n="monitor"></h3>
+     					<p><span data-i18n="monitor-tool-description"></span><br/><a
+     						target="_blank" href="https://monitor.jungletestnet.io">EOS Jungle Monitor</a></p>
+     					</div>
+     				</div>
 
-					<div class="feature-item">
-						<i class="icon icon-lg svg-monitor">
-							<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-							 width="32" height="32" viewBox="0 0 32 32">
-								<path d="M27 7.5h-27v21h27zM26 8.5v17.438l-6.438-5.563-4.938 3-7.125-8.125-6.5 6.563v-13.313zM1 27.5v-4.313l6.5-6.438 6.875 7.875 5.063-3 6.563 5.625v0.25zM4.5 7h1v-2.5h25.5v19h-3.5v1h4.5v-21h-27.5zM20 17.5c1.625 0 3-1.375 3-3s-1.375-3-3-3c-1.625 0-3 1.375-3 3s1.375 3 3 3zM20 12.5c1.125 0 2 0.875 2 2s-0.875 2-2 2c-1.125 0-2-0.875-2-2s0.875-2 2-2z"></path>
-							</svg> </i>
-						<h3 class="title-text">Monitor</h3>
-						<p>Cryptolions provides a Jungle Monitor service that allows you to track all activity on the Network. <br /><a
-							 target="_blank" href="https://monitor.jungletestnet.io">EOS Jungle Monitor</a></p>
-					</div>
-				</div>
+     				<div class="col-md-4 col-sm-6 item" data-sr="enter top move 100px over 0.8s">
+     					<div class="feature-item">
+     						<i class="icon icon-lg svg-gift-regular">
+     							<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     							width="32" height="32" viewBox="0 0 32 32">
+     							<path d="M32 8h-10.188c0.563-0.625 0.938-1.5 0.938-2.438 0-2.125-1.563-3.688-3.688-3.688-1.188 0-2.438 0.563-3.063 1.563-0.625-1-1.813-1.563-3.063-1.563-2.125 0-3.688 1.563-3.688 3.688 0 0.938 0.375 1.813 0.938 2.438h-10.188v4.938h1.25v17.188h29.5v-17.188h1.25zM19.063 3.063c1.375 0 2.5 1.125 2.5 2.5 0 1.313-1.125 2.438-2.5 2.438h-2.438v-2.438c0-1.375 1.125-2.5 2.438-2.5zM10.438 5.563c0-1.375 1.125-2.5 2.5-2.5 1.313 0 2.438 1.125 2.438 2.5v2.438h-2.438c-1.375 0-2.5-1.125-2.5-2.438zM1.25 9.25h14.125v2.438h-14.125zM2.438 12.938h12.938v16h-12.938zM29.563 28.938h-12.938v-16h12.938zM30.75 11.688h-14.125v-2.438h14.125z"></path>
+     						</svg> </i>
+     						<h3 class="title-text">Faucet</h3>
+     						<p><span data-i18n="faucet-tool-description"></span><a target="_blank" href="https://monitor.jungletestnet.io/#faucet">EOS Jungle Faucet</a><span data-i18n="faucet-tool-description-2"></span></p>
+     					</div>
+     				</div>
 
-				<div class="col-md-4 col-sm-6 item" data-sr="enter top move 100px over 0.8s">
+     				<div class="col-md-4 col-sm-6 item" data-sr="enter top move 100px over 0.8s">
+     					<div class="feature-item">
+     						<i class="icon icon-lg svg-wallet-regular">
+     							<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     							width="32" height="32" viewBox="0 0 32 32">
+     							<path d="M24 2c-3.688 0-6.813 2.063-8 4.938-1.188-2.875-4.313-4.938-8-4.938-5 0-8 4.313-8 8.5 0 4.313 2.688 8.875 7.938 13.625 3.875 3.5 7.75 5.813 7.813 5.813l0.25 0.125 0.25-0.125c0.063 0 3.938-2.313 7.813-5.813 5.25-4.75 7.938-9.313 7.938-13.625 0-4.188-3-8.5-8-8.5zM16 28.938c-2-1.25-15-9.5-15-18.438 0-3.688 2.625-7.5 7-7.5 3.625 0 7.5 2.5 7.5 6.5h1c0-4 3.875-6.5 7.5-6.5 4.375 0 7 3.813 7 7.5 0 8.938-13 17.188-15 18.438z"></path>
+     						</svg> </i>
+     						<h3 class="title-text" data-i18n="wallets"></h3>
+     						<p><span data-i18n="wallet-tool-description"></span><a target="_blank" href="https://steemit.com/eos/@ajose01/scatter-and-the-jungle-testnet">tutorial</a> <span data-i18n="wallet-tool-description-2"></span></p>
+     					</div>
+     				</div>
 
-					<div class="feature-item">
-						<i class="icon icon-lg svg-gift-regular">
-							<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-							 width="32" height="32" viewBox="0 0 32 32">
-								<path d="M32 8h-10.188c0.563-0.625 0.938-1.5 0.938-2.438 0-2.125-1.563-3.688-3.688-3.688-1.188 0-2.438 0.563-3.063 1.563-0.625-1-1.813-1.563-3.063-1.563-2.125 0-3.688 1.563-3.688 3.688 0 0.938 0.375 1.813 0.938 2.438h-10.188v4.938h1.25v17.188h29.5v-17.188h1.25zM19.063 3.063c1.375 0 2.5 1.125 2.5 2.5 0 1.313-1.125 2.438-2.5 2.438h-2.438v-2.438c0-1.375 1.125-2.5 2.438-2.5zM10.438 5.563c0-1.375 1.125-2.5 2.5-2.5 1.313 0 2.438 1.125 2.438 2.5v2.438h-2.438c-1.375 0-2.5-1.125-2.5-2.438zM1.25 9.25h14.125v2.438h-14.125zM2.438 12.938h12.938v16h-12.938zM29.563 28.938h-12.938v-16h12.938zM30.75 11.688h-14.125v-2.438h14.125z"></path>
-							</svg> </i>
-						<h3 class="title-text">Faucet</h3>
-						<p>Through the <a target="_blank" href="https://monitor.jungletestnet.io/#faucet">EOS Jungle Faucet</a> service you
-							get free tokens to host and use your smart contracts and decentralized applications.</p>
-					</div>
+     				<div class="col-md-4 col-sm-6 item" data-sr="enter top move 100px over 0.8s">
+     					<div class="feature-item">
+     						<i class="icon icon-lg svg-refresh-cloud">
+     							<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     							width="32" height="32" viewBox="0 0 32 32">
+     							<path d="M18.5 9.5c0-1.375-1.125-2.5-2.5-2.5s-2.5 1.125-2.5 2.5c0 1.375 1.125 2.5 2.5 2.5s2.5-1.125 2.5-2.5zM14.5 9.5c0-0.813 0.688-1.5 1.5-1.5s1.5 0.688 1.5 1.5c0 0.813-0.688 1.5-1.5 1.5s-1.5-0.688-1.5-1.5zM16 24.313l0.375-0.5c0.25-0.313 6.625-8.188 6.625-13.313 0-4.125-3.188-7.5-7-7.5-3.875 0-7 3.375-7 7.5 0 5.125 6.313 13 6.625 13.313zM16 4c3.313 0 6 2.938 6 6.5 0 4.063-4.625 10.375-6 12.188-1.375-1.813-6-8.125-6-12.188 0-3.563 2.688-6.5 6-6.5zM21.5 18v1h4.188l4.938 9h-29.25l4.938-9h4.188v-1h-4.813l-6.063 11h32.75l-6.063-11z"></path>
+     						</svg> </i>
+     						<h3 class="title-text">APIs</h3>
+     						<p><span data-i18n="api-tool-description"></span><br><a target="_blank" href="https://monitor.jungletestnet.io/#apiendpoints">monitor.jungletestnet.io/#apiendpoints</a>.</p>
+     					</div>
+     				</div>
 
-				</div>
+     				<div class="col-md-4 col-sm-6 item" data-sr="enter top move 100px over 0.8s">
 
-				<div class="col-md-4 col-sm-6 item" data-sr="enter top move 100px over 0.8s">
-
-					<div class="feature-item">
-						<i class="icon icon-lg svg-wallet-regular">
-							<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-							 width="32" height="32" viewBox="0 0 32 32">
-								<path d="M24 2c-3.688 0-6.813 2.063-8 4.938-1.188-2.875-4.313-4.938-8-4.938-5 0-8 4.313-8 8.5 0 4.313 2.688 8.875 7.938 13.625 3.875 3.5 7.75 5.813 7.813 5.813l0.25 0.125 0.25-0.125c0.063 0 3.938-2.313 7.813-5.813 5.25-4.75 7.938-9.313 7.938-13.625 0-4.188-3-8.5-8-8.5zM16 28.938c-2-1.25-15-9.5-15-18.438 0-3.688 2.625-7.5 7-7.5 3.625 0 7.5 2.5 7.5 6.5h1c0-4 3.875-6.5 7.5-6.5 4.375 0 7 3.813 7 7.5 0 8.938-13 17.188-15 18.438z"></path>
-							</svg> </i>
-						<h3 class="title-text">Wallets</h3>
-						<p>You can configure popular EOS wallets with your jungle accounts. Follow this <a target="_blank" href="https://steemit.com/eos/@ajose01/scatter-and-the-jungle-testnet">video
-								tutorial</a> to configure Scatter for dApp testing.</p>
-					</div>
-
-				</div>
-
-				<div class="col-md-4 col-sm-6 item" data-sr="enter top move 100px over 0.8s">
-
-					<div class="feature-item">
-						<i class="icon icon-lg svg-refresh-cloud">
-							<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-							 width="32" height="32" viewBox="0 0 32 32">
-								<path d="M18.5 9.5c0-1.375-1.125-2.5-2.5-2.5s-2.5 1.125-2.5 2.5c0 1.375 1.125 2.5 2.5 2.5s2.5-1.125 2.5-2.5zM14.5 9.5c0-0.813 0.688-1.5 1.5-1.5s1.5 0.688 1.5 1.5c0 0.813-0.688 1.5-1.5 1.5s-1.5-0.688-1.5-1.5zM16 24.313l0.375-0.5c0.25-0.313 6.625-8.188 6.625-13.313 0-4.125-3.188-7.5-7-7.5-3.875 0-7 3.375-7 7.5 0 5.125 6.313 13 6.625 13.313zM16 4c3.313 0 6 2.938 6 6.5 0 4.063-4.625 10.375-6 12.188-1.375-1.813-6-8.125-6-12.188 0-3.563 2.688-6.5 6-6.5zM21.5 18v1h4.188l4.938 9h-29.25l4.938-9h4.188v-1h-4.813l-6.063 11h32.75l-6.063-11z"></path>
-							</svg> </i>
-						<h3 class="title-text">APIs</h3>
-						<p>You can choose from a myriad of API endpoints on the Jungle Blockchain. <a target="_blank" href="https://monitor.jungletestnet.io/#apiendpoints">monitor.jungletestnet.io/#apiendpoints</a>.</p>
-					</div>
-
-				</div>
-
-				<div class="col-md-4 col-sm-6 item" data-sr="enter top move 100px over 0.8s">
-
-					<div class="feature-item">
-						<i class="icon icon-lg svg-laptop">
-							<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-							 width="32" height="32" viewBox="0 0 32 32">
-								<path d="M26.563 10.125l3.125-3.125-4.688-4.688-3.125 3.125-2.375-0.813v-4.625h-7v4.625l-2.375 0.813-3.125-3.125-4.688 4.688 3.125 3.125-0.813 2.375h-4.625v7h4.625l0.813 2.375-3.125 3.125 4.688 4.688 3.125-3.125 2.375 0.813v4.625h7v-4.625l2.375-0.813 3.125 3.125 4.688-4.688-3.125-3.125 0.813-2.375h4.625v-7h-4.625zM31 18.5h-4.375l-1.188 3.625 2.875 2.875-3.313 3.313-2.875-2.875-3.625 1.188v4.375h-5v-4.375l-3.625-1.188-2.875 2.875-3.313-3.313 2.875-2.875-1.188-3.625h-4.375v-5h4.375l1.188-3.625-2.875-2.875 3.313-3.313 2.875 2.875 3.625-1.188v-4.375h5v4.375l3.625 1.188 2.875-2.875 3.313 3.313-2.875 2.875 1.188 3.625h4.375zM16 12.5c-1.938 0-3.5 1.563-3.5 3.5s1.563 3.5 3.5 3.5c1.938 0 3.5-1.563 3.5-3.5s-1.563-3.5-3.5-3.5zM16 18.5c-1.375 0-2.5-1.125-2.5-2.5s1.125-2.5 2.5-2.5c1.375 0 2.5 1.125 2.5 2.5s-1.125 2.5-2.5 2.5z"></path>
-							</svg> </i>
-						<h3 class="title-text">Cleos</h3>
-						<p>Cleos is the command interface developed by <a target="_blank" href="https://block.one">Block One</a> to
-							interact with <a target="_blank" href="https://github.com/eosio/eos">EOSIO</a> based blockchain nodes. </p>
-					</div>
-
-				</div>
+     					<div class="feature-item">
+     						<i class="icon icon-lg svg-laptop">
+     							<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     							width="32" height="32" viewBox="0 0 32 32">
+     							<path d="M26.563 10.125l3.125-3.125-4.688-4.688-3.125 3.125-2.375-0.813v-4.625h-7v4.625l-2.375 0.813-3.125-3.125-4.688 4.688 3.125 3.125-0.813 2.375h-4.625v7h4.625l0.813 2.375-3.125 3.125 4.688 4.688 3.125-3.125 2.375 0.813v4.625h7v-4.625l2.375-0.813 3.125 3.125 4.688-4.688-3.125-3.125 0.813-2.375h4.625v-7h-4.625zM31 18.5h-4.375l-1.188 3.625 2.875 2.875-3.313 3.313-2.875-2.875-3.625 1.188v4.375h-5v-4.375l-3.625-1.188-2.875 2.875-3.313-3.313 2.875-2.875-1.188-3.625h-4.375v-5h4.375l1.188-3.625-2.875-2.875 3.313-3.313 2.875 2.875 3.625-1.188v-4.375h5v4.375l3.625 1.188 2.875-2.875 3.313 3.313-2.875 2.875 1.188 3.625h4.375zM16 12.5c-1.938 0-3.5 1.563-3.5 3.5s1.563 3.5 3.5 3.5c1.938 0 3.5-1.563 3.5-3.5s-1.563-3.5-3.5-3.5zM16 18.5c-1.375 0-2.5-1.125-2.5-2.5s1.125-2.5 2.5-2.5c1.375 0 2.5 1.125 2.5 2.5s-1.125 2.5-2.5 2.5z"></path>
+     						</svg> </i>
+     						<h3 class="title-text">Cleos</h3>
+     						<p><span data-i18n="cleos-tool-description"></span> <a target="_blank" href="https://block.one">Block One</a><span data-i18n="cleos-tool-description-2"></span></p>
+     						</div>
+     					</div>
 
 
-				<div class="col-md-4 col-sm-6 item" data-sr="enter top move 100px over 0.8s">
+     					<div class="col-md-4 col-sm-6 item" data-sr="enter top move 100px over 0.8s">
+     						<div class="feature-item">
+     							<i class="icon icon-lg svg-tools">
+     								<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     								width="32" height="32" viewBox="0 0 32 32">
+     								<path d="M16 19.5c2.5 0 4.5-2 4.5-4.5h-1c0 1.938-1.563 3.5-3.5 3.5s-3.5-1.563-3.5-3.5h-1c0 2.5 2 4.5 4.5 4.5zM9 9.5h1v1h-1zM22 9.5h1v1h-1zM0 24h8.5v6.563l7.688-6.563h15.813v-22h-32zM1 3h30v20h-15.188l-6.313 5.438v-5.438h-8.5z"></path>
+     							</svg> </i>
+     							<h3 class="title-text" data-i18n="dapp-env"></h3>
+     							<p><a target="_blank" href="https://github.com/eoscostarica/eos-local">EOS Local</a><span data-i18n="dapp-env-description"></span></p>
+     						</div>
+     					</div>
 
-					<div class="feature-item">
-						<i class="icon icon-lg svg-tools">
-							<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-							 width="32" height="32" viewBox="0 0 32 32">
-								<path d="M16 19.5c2.5 0 4.5-2 4.5-4.5h-1c0 1.938-1.563 3.5-3.5 3.5s-3.5-1.563-3.5-3.5h-1c0 2.5 2 4.5 4.5 4.5zM9 9.5h1v1h-1zM22 9.5h1v1h-1zM0 24h8.5v6.563l7.688-6.563h15.813v-22h-32zM1 3h30v20h-15.188l-6.313 5.438v-5.438h-8.5z"></path>
-							</svg> </i>
-						<h3 class="title-text">DApp Dev Env</h3>
-						<p><a target="_blank" href="https://github.com/eoscostarica/eos-local">EOS Local</a> is docker based local
-							development environment for building scalable EOS dApps.</p>
-					</div>
+     					<div class="col-md-4 col-sm-6 item" data-sr="enter top move 100px over 0.8s">
+     						<div class="feature-item">
+     							<i class="icon icon-lg svg-camera-2">
+     								<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     								width="32" height="32" viewBox="0 0 32 32">
+     								<path d="M16 19.5c2.5 0 4.5-2 4.5-4.5h-1c0 1.938-1.563 3.5-3.5 3.5s-3.5-1.563-3.5-3.5h-1c0 2.5 2 4.5 4.5 4.5zM9 9.5h1v1h-1zM22 9.5h1v1h-1zM0 24h8.5v6.563l7.688-6.563h15.813v-22h-32zM1 3h30v20h-15.188l-6.313 5.438v-5.438h-8.5z"></path>
+     							</svg> </i>
+     							<h3 class="title-text" data-i18n="snapshots"></h3>
+     							<p><a target="_blank" href="http://backup.jungletestnet.io/">The Jungle Testnet snapshots</a><span data-i18n="snapshots-description"></span></p>
+     						</div>
+     					</div>
 
-				</div>
+     					<div class="col-md-4 col-sm-6 item" data-sr="enter top move 100px over 0.8s">
+     						<div class="feature-item">
+     							<i class="icon icon-lg svg-chat">
+     								<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     								width="32" height="32" viewBox="0 0 32 32">
+     								<path d="M18.5 9.5c0-1.375-1.125-2.5-2.5-2.5s-2.5 1.125-2.5 2.5c0 1.375 1.125 2.5 2.5 2.5s2.5-1.125 2.5-2.5zM14.5 9.5c0-0.813 0.688-1.5 1.5-1.5s1.5 0.688 1.5 1.5c0 0.813-0.688 1.5-1.5 1.5s-1.5-0.688-1.5-1.5zM16 24.313l0.375-0.5c0.25-0.313 6.625-8.188 6.625-13.313 0-4.125-3.188-7.5-7-7.5-3.875 0-7 3.375-7 7.5 0 5.125 6.313 13 6.625 13.313zM16 4c3.313 0 6 2.938 6 6.5 0 4.063-4.625 10.375-6 12.188-1.375-1.813-6-8.125-6-12.188 0-3.563 2.688-6.5 6-6.5zM21.5 18v1h4.188l4.938 9h-29.25l4.938-9h4.188v-1h-4.813l-6.063 11h32.75l-6.063-11z"></path>
+     							</svg> </i>
+     							<h3 class="title-text" data-i18n="telegram-group"></h3>
+     							<p><span data-i18n="telegram-group-description"></span> <a target="_blank"
+     								href="https://t.me/jungletestnet">t.me/jungletestnet</a>.</p>
+     							</div>
+     						</div>
 
-				<div class="col-md-4 col-sm-6 item" data-sr="enter top move 100px over 0.8s">
-
-					<div class="feature-item">
-						<i class="icon icon-lg svg-camera-2">
-							<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-							 width="32" height="32" viewBox="0 0 32 32">
-								<path d="M16 19.5c2.5 0 4.5-2 4.5-4.5h-1c0 1.938-1.563 3.5-3.5 3.5s-3.5-1.563-3.5-3.5h-1c0 2.5 2 4.5 4.5 4.5zM9 9.5h1v1h-1zM22 9.5h1v1h-1zM0 24h8.5v6.563l7.688-6.563h15.813v-22h-32zM1 3h30v20h-15.188l-6.313 5.438v-5.438h-8.5z"></path>
-							</svg> </i>
-						<h3 class="title-text">Snapshots</h3>
-						<p><a target="_blank" href="http://backup.jungletestnet.io/">The Jungle Testnet snapshots</a> allow you
-							to spin up EOSIO nodes quickly without needing to sync the blockchain.</p>
-					</div>
-
-				</div>
-
-				<div class="col-md-4 col-sm-6 item" data-sr="enter top move 100px over 0.8s">
-
-					<div class="feature-item">
-						<i class="icon icon-lg svg-chat">
-							<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-							 width="32" height="32" viewBox="0 0 32 32">
-								<path d="M18.5 9.5c0-1.375-1.125-2.5-2.5-2.5s-2.5 1.125-2.5 2.5c0 1.375 1.125 2.5 2.5 2.5s2.5-1.125 2.5-2.5zM14.5 9.5c0-0.813 0.688-1.5 1.5-1.5s1.5 0.688 1.5 1.5c0 0.813-0.688 1.5-1.5 1.5s-1.5-0.688-1.5-1.5zM16 24.313l0.375-0.5c0.25-0.313 6.625-8.188 6.625-13.313 0-4.125-3.188-7.5-7-7.5-3.875 0-7 3.375-7 7.5 0 5.125 6.313 13 6.625 13.313zM16 4c3.313 0 6 2.938 6 6.5 0 4.063-4.625 10.375-6 12.188-1.375-1.813-6-8.125-6-12.188 0-3.563 2.688-6.5 6-6.5zM21.5 18v1h4.188l4.938 9h-29.25l4.938-9h4.188v-1h-4.813l-6.063 11h32.75l-6.063-11z"></path>
-							</svg> </i>
-						<h3 class="title-text">Telegram Group</h3>
-						<p>The Jungle telegram group is essential for coordinating efforts and knowledge sharing. Join at <a target="_blank"
-							 href="https://t.me/jungletestnet">t.me/jungletestnet</a>.</p>
-					</div>
-
-				</div>
-
-				<div class="col-md-4 col-sm-6 item" data-sr="enter top move 100px over 0.8s">
-
-					<div class="feature-item">
-						<i class="icon icon-lg svg-basic-elaboration-message-happy">
-							<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-							 width="32" height="32" viewBox="0 0 32 32">
-								<path d="M26.563 10.125l3.125-3.125-4.688-4.688-3.125 3.125-2.375-0.813v-4.625h-7v4.625l-2.375 0.813-3.125-3.125-4.688 4.688 3.125 3.125-0.813 2.375h-4.625v7h4.625l0.813 2.375-3.125 3.125 4.688 4.688 3.125-3.125 2.375 0.813v4.625h7v-4.625l2.375-0.813 3.125 3.125 4.688-4.688-3.125-3.125 0.813-2.375h4.625v-7h-4.625zM31 18.5h-4.375l-1.188 3.625 2.875 2.875-3.313 3.313-2.875-2.875-3.625 1.188v4.375h-5v-4.375l-3.625-1.188-2.875 2.875-3.313-3.313 2.875-2.875-1.188-3.625h-4.375v-5h4.375l1.188-3.625-2.875-2.875 3.313-3.313 2.875 2.875 3.625-1.188v-4.375h5v4.375l3.625 1.188 2.875-2.875 3.313 3.313-2.875 2.875 1.188 3.625h4.375zM16 12.5c-1.938 0-3.5 1.563-3.5 3.5s1.563 3.5 3.5 3.5c1.938 0 3.5-1.563 3.5-3.5s-1.563-3.5-3.5-3.5zM16 18.5c-1.375 0-2.5-1.125-2.5-2.5s1.125-2.5 2.5-2.5c1.375 0 2.5 1.125 2.5 2.5s-1.125 2.5-2.5 2.5z"></path>
-							</svg> </i>
-						<h3 class="title-text">Discord Server</h3>
-						<p>The Discord server is an alternative to the main Telegram group. <a target="_blank" href="https://discord.gg/84REyeN">discord.gg/84REyeN</a>.
-						</p>
-					</div>
-
-				</div>
-			</div> <!-- /.row -->
-		</div>
-	</section>
+     						<div class="col-md-4 col-sm-6 item" data-sr="enter top move 100px over 0.8s">
+     							<div class="feature-item">
+     								<i class="icon icon-lg svg-basic-elaboration-message-happy">
+     									<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     									width="32" height="32" viewBox="0 0 32 32">
+     									<path d="M26.563 10.125l3.125-3.125-4.688-4.688-3.125 3.125-2.375-0.813v-4.625h-7v4.625l-2.375 0.813-3.125-3.125-4.688 4.688 3.125 3.125-0.813 2.375h-4.625v7h4.625l0.813 2.375-3.125 3.125 4.688 4.688 3.125-3.125 2.375 0.813v4.625h7v-4.625l2.375-0.813 3.125 3.125 4.688-4.688-3.125-3.125 0.813-2.375h4.625v-7h-4.625zM31 18.5h-4.375l-1.188 3.625 2.875 2.875-3.313 3.313-2.875-2.875-3.625 1.188v4.375h-5v-4.375l-3.625-1.188-2.875 2.875-3.313-3.313 2.875-2.875-1.188-3.625h-4.375v-5h4.375l1.188-3.625-2.875-2.875 3.313-3.313 2.875 2.875 3.625-1.188v-4.375h5v4.375l3.625 1.188 2.875-2.875 3.313 3.313-2.875 2.875 1.188 3.625h4.375zM16 12.5c-1.938 0-3.5 1.563-3.5 3.5s1.563 3.5 3.5 3.5c1.938 0 3.5-1.563 3.5-3.5s-1.563-3.5-3.5-3.5zM16 18.5c-1.375 0-2.5-1.125-2.5-2.5s1.125-2.5 2.5-2.5c1.375 0 2.5 1.125 2.5 2.5s-1.125 2.5-2.5 2.5z"></path>
+     								</svg> </i>
+     								<h3 class="title-text" data-i18n="discord-server"></h3>
+     								<p><span data-i18n="discord-server-description"></span><a target="_blank" href="https://discord.gg/84REyeN">discord.gg/84REyeN</a>.
+     								</p>
+     							</div>
+     						</div>
+     					</div> <!-- /.row -->
+     				</div>
+     			</section>
 
 	<!-- =========================
      FAQS 
-============================== -->
+     ============================== -->
 	<!--<section class="faqs faqs-2 padding-120-60" id="faq" style="background:#f7f7f7">
 		<div class="container">
 			<div class="row">
@@ -538,113 +512,113 @@
 
 	<!-- =========================
      TESTIMONIALS 
-============================== -->
-	<section class="testimonials testimonials-3 white-bg padding-120-75" id="testimonial" style="background:#f7f7f7">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-8 col-sm-10 col-lg-offset-3 col-md-offset-2 col-sm-offset-1">
-					<div class="section-heading text-center">
+     ============================== -->
+     <section class="testimonials testimonials-3 white-bg padding-120-75" id="testimonial" style="background:#f7f7f7">
+     	<div class="container">
+     		<div class="row">
+     			<div class="col-lg-6 col-md-8 col-sm-10 col-lg-offset-3 col-md-offset-2 col-sm-offset-1">
+     				<div class="section-heading text-center">
 
-						<h2 class="heading-text">Testimonials</h2>
-						<hr class="lines">
-						<p class="sub-heading">Words from Jungle users.</p>
+     					<h2 class="heading-text" data-i18n="testimonials"></h2>
+     					<hr class="lines">
+     					<p class="sub-heading" data-i18n="jungle-users-words"></p>
 
-					</div> <!-- /.section-heading -->
-				</div>
-			</div> <!-- /.row -->
+     				</div> <!-- /.section-heading -->
+     			</div>
+     		</div> <!-- /.row -->
 
-			<div class="row">
-				<div class="col-md-4 mb50">
+     		<div class="row">
+     			<div class="col-md-4 mb50">
 
-					<div class="item">
-						<!-- TESTIMONIAL -->
-						<blockquote>
-							I use Jungle Testnet as my staging chain since I launched MonsterEOS and it's been used so far with great and
-							stable reliability of my contract, RAM usage and monsters data. Junglenet is amazing!.
-						</blockquote>
+     				<div class="item">
+     					<!-- TESTIMONIAL -->
+     					<blockquote>
+     						I use Jungle Testnet as my staging chain since I launched MonsterEOS and it's been used so far with great and
+     						stable reliability of my contract, RAM usage and monsters data. Junglenet is amazing!.
+     					</blockquote>
 
-						<hr>
+     					<hr>
 
-						<div class="the-client media">
-							<div class="media-left">
-								<img src="./assets/leo-ribeiro.jpg" alt="" class="thumb">
-							</div>
-							<div class="media-body">
-								<p class="client-name">Leo Ribeiro</p>
-								<p class="position">Creator of MonsterEOS</p>
-							</div>
-						</div>
-					</div> <!-- /END TESTIMONIAL -->
+     					<div class="the-client media">
+     						<div class="media-left">
+     							<img src="./assets/leo-ribeiro.jpg" alt="" class="thumb">
+     						</div>
+     						<div class="media-body">
+     							<p class="client-name">Leo Ribeiro</p>
+     							<p class="position">Creator of MonsterEOS</p>
+     						</div>
+     					</div>
+     				</div> <!-- /END TESTIMONIAL -->
 
-				</div>
+     			</div>
 
-				<div class="col-md-4 mb50">
+     			<div class="col-md-4 mb50">
 
-					<div class="item">
-						<!-- TESTIMONIAL -->
-						<blockquote>
-							The Jungle have been critical to the success and adoption of EOS. Many dApps and BPs we have today first learned
-							EOS and developed their software into production releases because of the value Jungle provides.
-						</blockquote>
+     				<div class="item">
+     					<!-- TESTIMONIAL -->
+     					<blockquote>
+     						The Jungle have been critical to the success and adoption of EOS. Many dApps and BPs we have today first learned
+     						EOS and developed their software into production releases because of the value Jungle provides.
+     					</blockquote>
 
-						<hr>
+     					<hr>
 
-						<div class="the-client media">
-							<div class="media-left">
-								<img src="./assets/luke-stokes.jpeg" alt="" class="thumb">
-							</div>
-							<div class="media-body">
-								<p class="client-name">Luke Stokes</p>
-								<p class="position">EOS DAC</p>
-							</div>
-						</div>
-					</div> <!-- /END TESTIMONIAL -->
+     					<div class="the-client media">
+     						<div class="media-left">
+     							<img src="./assets/luke-stokes.jpeg" alt="" class="thumb">
+     						</div>
+     						<div class="media-body">
+     							<p class="client-name">Luke Stokes</p>
+     							<p class="position">EOS DAC</p>
+     						</div>
+     					</div>
+     				</div> <!-- /END TESTIMONIAL -->
 
-				</div>
+     			</div>
 
-				<div class="col-md-4 mb50">
+     			<div class="col-md-4 mb50">
 
-					<div class="item">
-						<!-- TESTIMONIAL -->
-						<blockquote>
-							The Jungle Testnet has been absolutely crucial to the launch of EOS.
-						</blockquote>
+     				<div class="item">
+     					<!-- TESTIMONIAL -->
+     					<blockquote>
+     						The Jungle Testnet has been absolutely crucial to the launch of EOS.
+     					</blockquote>
 
-						<hr>
+     					<hr>
 
-						<div class="the-client media">
-							<div class="media-left">
-								<img src="./assets/john-milburn.jpeg" alt="" class="thumb">
-							</div>
-							<div class="media-body">
-								<p class="client-name">John Milburn (jem)</p>
-								<p class="position">BOFH</p>
-							</div>
-						</div>
-					</div> <!-- /END TESTIMONIAL -->
+     					<div class="the-client media">
+     						<div class="media-left">
+     							<img src="./assets/john-milburn.jpeg" alt="" class="thumb">
+     						</div>
+     						<div class="media-body">
+     							<p class="client-name">John Milburn (jem)</p>
+     							<p class="position">BOFH</p>
+     						</div>
+     					</div>
+     				</div> <!-- /END TESTIMONIAL -->
 
-				</div>
+     			</div>
 
-			</div> <!-- /.row -->
-		</div>
-	</section>
+     		</div> <!-- /.row -->
+     	</div>
+     </section>
 
 	<!-- =========================
      SUBSCRIBE
-============================== -->
-	<section class="downloads download-app-3 image-bg gradient-overlay text-center padding-120-75" id="register">
-		<div class="container">
+     ============================== -->
+     <section class="downloads download-app-3 image-bg gradient-overlay text-center padding-120-75" id="register">
+     	<div class="container">
 
-			<!-- SUBSCIBE FOR NEWSLETTER -->
-			<div class="row subscribe-newsletter">
-				<div class="col-md-8 col-sm-10 col-md-offset-2 col-sm-offset-1 mb50">
+     		<!-- SUBSCIBE FOR NEWSLETTER -->
+     		<div class="row subscribe-newsletter">
+     			<div class="col-md-8 col-sm-10 col-md-offset-2 col-sm-offset-1 mb50">
 
-					<div class="section-heading">
-						<h2 class="heading-text">Migration Closed</h2>
-						<p class="sub-heading">The Jungle Testnet will soon be reset by starting a new blockchain. If you were not able to register your account for migration you will need to manually register on the new chain using the <a href="https://monitor.jungletestnet.io/#register"> registration form.</a></p>
-					</div>
+     				<div class="section-heading">
+     					<h2 class="heading-text" data-i18n="migration-closed"></h2>
+     					<p class="sub-heading"></p>
+     				</div>
 
-					<form id="migrate-account-form" class="row">
+     				<form id="migrate-account-form" class="row">
 						<!-- <div class="col-md-8">
 							<div class="form-underlined">
 								<input type="text" name="accountName" class="form-control" id="accountName" placeholder="Your account">
@@ -670,8 +644,8 @@
 							<button type="submit" class="btn btn-base btn-lg"><span>Register Account</span></button>
 						</div>
 					</form>
--->
-					<br />
+				-->
+				<br />
 
 					<!-- <div class="section-heading">
 						<h2 class="heading-text">Subscribe To Newsletter</h2>
@@ -680,7 +654,7 @@
 
 					<!-- =========================
 				     MAILCHIMP SUBSCRIBE 
-				============================== -->
+				     ============================== -->
 					<!-- 					<form action="https://jungletestnet.us19.list-manage.com/subscribe/post?u=353aae55b074629870da3685a&amp;id=aa711f6a54"
 					 method="post" id="subscribe-mailchimp" name="mc-embedded-subscribe-form" class="validate" target="_blank"
 					 novalidate>
@@ -721,75 +695,88 @@
 
 	<!-- =========================
      FOOTER - 2
-============================== -->
-	<footer class="footers footer-2 text-center">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 mb30">
+     ============================== -->
+     <footer class="footers footer-2 text-center">
+     	<div class="container">
+     		<div class="row">
+     			<div class="col-sm-6 mb30">
 
-					<p class="copyright"><a href="" target="_blank"> <i class=""></i> </a></p>
+     				<p class="copyright"><a href="" target="_blank"> <i class=""></i> </a></p>
 
-				</div>
-				<div class="col-sm-6 mb30">
+     			</div>
+     			<div class="col-sm-6 mb30">
 
-					<ul class="socialize">
-						<li><a href="https://github.com/EOS-Jungle-Testnet/jungletestnet.io/">
-								This website is open source - Find us on GitHub <i class="icon svg-github-alt"></i>
-							</a></li>
-					</ul>
+     				<ul class="socialize">
+     					<li><a href="https://github.com/EOS-Jungle-Testnet/jungletestnet.io/">
+     						<span data-i18n="open-source-site"></span><i class="icon svg-github-alt"></i>
+     					</a></li>
+     				</ul>
 
-				</div>
-			</div> <!-- /.row -->
-		</div>
-	</footer>
+     			</div>
+     		</div> <!-- /.row -->
+     	</div>
+     </footer>
 
-	<!-- Modal -->
-	<div class="modal fade" id="subscribe_modal_1" tabindex="-1" role="dialog" aria-labelledby="subscribe_modal_1_label">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content simple-success-msg">
-				<div class="modal-body text-center">
+     <!-- Modal -->
+     <div class="modal fade" id="subscribe_modal_1" tabindex="-1" role="dialog" aria-labelledby="subscribe_modal_1_label">
+     	<div class="modal-dialog" role="document">
+     		<div class="modal-content simple-success-msg">
+     			<div class="modal-body text-center">
 
-					<i class="icon svg-basic-elaboration-message-happy icon-md">
-						<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-						 width="32" height="32" viewBox="0 0 32 32">
-							<path d="M16 19.5c2.5 0 4.5-2 4.5-4.5h-1c0 1.938-1.563 3.5-3.5 3.5s-3.5-1.563-3.5-3.5h-1c0 2.5 2 4.5 4.5 4.5zM9 9.5h1v1h-1zM22 9.5h1v1h-1zM0 24h8.5v6.563l7.688-6.563h15.813v-22h-32zM1 3h30v20h-15.188l-6.313 5.438v-5.438h-8.5z"></path>
-						</svg> </i>
-					<p>You have registered for account migration to Jungle 2.0. We will publish a list of accounts that have been migrated soon.</p>
-					<button type="button" class="btn btn-base btn-rectangle btn-sm" data-dismiss="modal"><span>Close</span></button>
+     				<i class="icon svg-basic-elaboration-message-happy icon-md">
+     					<!--?xml version="1.0" encoding="utf-8"?--> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     					width="32" height="32" viewBox="0 0 32 32">
+     					<path d="M16 19.5c2.5 0 4.5-2 4.5-4.5h-1c0 1.938-1.563 3.5-3.5 3.5s-3.5-1.563-3.5-3.5h-1c0 2.5 2 4.5 4.5 4.5zM9 9.5h1v1h-1zM22 9.5h1v1h-1zM0 24h8.5v6.563l7.688-6.563h15.813v-22h-32zM1 3h30v20h-15.188l-6.313 5.438v-5.438h-8.5z"></path>
+     				</svg> </i>
+     				<p>You have registered for account migration to Jungle 2.0. We will publish a list of accounts that have been migrated soon.</p>
+     				<button type="button" class="btn btn-base btn-rectangle btn-sm" data-dismiss="modal"><span>Close</span></button>
 
-				</div>
-			</div>
-		</div>
-	</div>
+     			</div>
+     		</div>
+     	</div>
+     </div>
 
 
 	<!-- =========================
      SCRIPTS 
-============================== -->
-	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
-	<script src="./assets/jquery-1.11.3.min.js"></script>
-	<script src="./assets/bootstrap.min.js"></script>
-	<script src="./assets/nivo-lightbox.min.js"></script>
-	<script src="./assets/jquery.scrollTo.min.js"></script>
-	<script src="./assets/jquery.localScroll.min.js"></script>
-	<script src="./assets/jquery.nav.js"></script>
-	<script src="./assets/jquery.ajaxchimp.min.js"></script>
-	<script src="./assets/jquery.fitvids.js"></script>
-	<script src="./assets/matchMedia.js"></script>
-	<script src="./assets/jquery.mixitup.js"></script>
-	<script src="./assets/swiper.jquery.min.js"></script>
-	<script src="./assets/SVGinject.js"></script>
-	<script src="./assets/smoothscroll.js"></script>
-	<script src="./assets/jquery.datetimepicker.full.min.js"></script>
-	<script src="./assets/jquery.countdown.min.js"></script>
-	<script src="./assets/application.js"></script>
-	<script>
-		/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-		particlesJS.load('home', 'assets/particles.json', function () {
-			console.log('callback - particles.js config loaded');
-		});
-	</script>
-</body>
+     ============================== -->
+     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+     <script
+		src="https://code.jquery.com/jquery-3.2.1.min.js"
+		integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		crossorigin="anonymous"></script>
+     <!-- <script src="./assets/jquery-1.11.3.min.js"></script> -->
+     <script src="./assets/bootstrap.min.js"></script>
+     <script src="./assets/nivo-lightbox.min.js"></script>
+     <script src="./assets/jquery.scrollTo.min.js"></script>
+     <script src="./assets/jquery.localScroll.min.js"></script>
+     <script src="./assets/jquery.nav.js"></script>
+     <script src="./assets/jquery.ajaxchimp.min.js"></script>
+     <script src="./assets/jquery.fitvids.js"></script>
+     <script src="./assets/matchMedia.js"></script>
+     <script src="./assets/jquery.mixitup.js"></script>
+     <script src="./assets/swiper.jquery.min.js"></script>
+     <script src="./assets/SVGinject.js"></script>
+     <script src="./assets/smoothscroll.js"></script>
+     <script src="./assets/jquery.datetimepicker.full.min.js"></script>
+     <script src="./assets/jquery.countdown.min.js"></script>
+     <script src="./assets/application.js"></script>
 
-</html>
+     <!--- I18n -->
+
+  <script src="./jquery.i18n/jquery.i18n.js"></script>
+	<script src="./jquery.i18n/jquery.i18n.messagestore.js"></script>
+	<script src="./jquery.i18n/jquery.i18n.fallbacks.js"></script>
+	<script src="./jquery.i18n/jquery.i18n.parser.js"></script>
+	<script src="./jquery.i18n/jquery.i18n.emitter.js"></script>
+	<script src="./jquery.i18n/jquery.i18n.language.js"></script>
+	<!--- END I18n -->
+	<script>
+	/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+	particlesJS.load('home', 'assets/particles.json', function () {
+		console.log('callback - particles.js config loaded');
+	});
+	</script>
+ </body>
+
+ </html>
