@@ -10,5 +10,8 @@
   },
   "dependencies": {
     "lite-server": "^2.5.3"
+  },
+  "devDependencies": {
+    "all-contributors-cli": "^6.14.0"
   }
 }
