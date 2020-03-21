@@ -55,13 +55,6 @@ Please report bugs big and small by [opening an issue](https://github.com/EOS-Ju
 We follow EOS Costa Rica's Open Source Contributing Guidelines.
 https://developers.eoscostarica.io/docs/open-source-guidelines.
 
-## Weekly Call
-
-Our weekly sync call is every Friday 3pm UTC at [meet.eoscostarica.io](https:/meet.eoscostarica.io).
-
-- Please review our weekly meeting agenda agenda and minutes in the following shared [Google Drive Folder](https://drive.google.com/drive/folders/1AoXnpLLyF84GWfK91xR42kouDnbPL3Dw?usp=sharing)
-
-
 ## License
 
 MIT © [Jungle Testnet](https://jungletestnet.io)  
