@@ -1,3 +1,8 @@
+> [!WARNING]
+> **Archived: this is the Jungle website from 2018–2023. It is not what https://jungletestnet.io serves today.**
+> The live site is maintained elsewhere, and this repo no longer claims the `jungletestnet.io` domain through GitHub Pages: the `CNAME` file is gone.
+> To run a Jungle4 node, see https://github.com/EOS-Jungle-Testnet/Node-Manual-Installation.
+
 <p align="center">
 	<a href="https://jungletestnet.io">
 		<img src="images/logo1-jungletestnet.png" >
